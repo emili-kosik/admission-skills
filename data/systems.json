@@ -1,0 +1,72 @@
+{
+  "_meta": {
+    "cycle": "2026-27",
+    "last_verified": "2026-07-06",
+    "source": "Primary sources: commonapp.org, admission.universityofcalifornia.edu, calstate.edu/apply, goapplytexas.org, coalitionforcollegeaccess.org"
+  },
+  "systems": {
+    "common_app": {
+      "label": "Common App",
+      "portal": "https://apply.commonapp.org",
+      "opens": "Annually on Aug 1 (accounts roll over — the Common App tab and personal essay survive the refresh)",
+      "essay": "Personal essay 250-650 words (7 prompts) + college-specific supplements",
+      "recommendations": "Counselor + typically 1-2 teacher evaluations (per-college counts in the Requirements Grid)",
+      "rounds": ["ED", "ED2", "EA", "REA", "RD", "rolling"],
+      "coverage": "~1,100 member colleges",
+      "fee_model": "Per college ($0-$90); fee waivers via the Common App profile"
+    },
+    "uc": {
+      "label": "University of California",
+      "portal": "https://apply.universityofcalifornia.edu",
+      "opens": "Aug 1; firm filing window Oct 1 - Nov 30",
+      "essay": "4 Personal Insight Questions (350 words each) chosen from 8 — answers, not essays",
+      "recommendations": "None for most applicants",
+      "rounds": ["uc_filing"],
+      "coverage": "One application, all 9 undergraduate campuses",
+      "fee_model": "Per campus selected; fee waivers up to 4 campuses",
+      "notes": "Test-free (SAT/ACT never considered). UC runs plagiarism and AI checks on PIQs."
+    },
+    "csu": {
+      "label": "California State University",
+      "portal": "https://www.calstate.edu/apply",
+      "opens": "Priority window typically opens Oct 1",
+      "essay": "No essays for most campuses/programs",
+      "recommendations": "None for most applicants",
+      "rounds": ["csu_filing"],
+      "coverage": "23 campuses via Cal State Apply",
+      "fee_model": "Per campus; fee waivers available",
+      "notes": "Test-free."
+    },
+    "applytexas": {
+      "label": "ApplyTexas",
+      "portal": "https://goapplytexas.org",
+      "opens": "Typically July for the following fall",
+      "essay": "Essay requirements vary by campus (UT Austin requires essays)",
+      "recommendations": "Varies by campus",
+      "rounds": ["RD", "rolling"],
+      "coverage": "Texas public universities",
+      "fee_model": "Per campus",
+      "notes": "Texas top-10% automatic admission for state residents."
+    },
+    "coalition_scoir": {
+      "label": "Coalition on Scoir",
+      "portal": "https://www.scoir.com",
+      "opens": "Rolling account creation; college deadlines match their Common App dates where dual-listed",
+      "essay": "College-specific",
+      "recommendations": "College-specific",
+      "rounds": ["ED", "EA", "RD"],
+      "coverage": "Coalition member colleges (many are also Common App members)",
+      "fee_model": "Per college"
+    },
+    "institutional": {
+      "label": "College's own portal",
+      "portal": null,
+      "opens": "Varies (MIT, Georgetown, most UK/international universities)",
+      "essay": "College-specific",
+      "recommendations": "College-specific",
+      "rounds": ["EA", "REA", "RD"],
+      "coverage": "Colleges that don't use a shared application",
+      "fee_model": "Per college"
+    }
+  }
+}

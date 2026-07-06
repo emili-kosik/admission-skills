@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/emili-kosik/admission-skills/data/schemas/profile.schema.json",
+  "title": "Student profile",
+  "type": "object",
+  "required": ["schema_version", "operator", "student"],
+  "additionalProperties": true,
+  "properties": {
+    "schema_version": { "type": "integer", "const": 1 },
+    "operator": { "enum": ["parent", "student_18plus"] },
+    "student": {
+      "type": "object",
+      "required": ["grad_year"],
+      "properties": {
+        "preferred_name": { "type": "string" },
+        "grad_year": { "type": "integer", "minimum": 2024, "maximum": 2040 },
+        "residency": { "enum": ["domestic", "international"] },
+        "country": { "type": "string" },
+        "state": { "type": ["string", "null"] },
+        "first_gen": { "type": "boolean" },
+        "school_type": { "enum": ["public", "private", "homeschool", "international"] }
+      }
+    },
+    "academics": {
+      "type": "object",
+      "properties": {
+        "gpa_unweighted": { "type": ["number", "null"], "minimum": 0, "maximum": 5 },
+        "gpa_weighted": { "type": ["number", "null"], "minimum": 0, "maximum": 6 },
+        "class_rank": { "type": ["string", "null"] },
+        "current_courses": { "type": "array", "items": { "type": "string" } },
+        "rigor_arc": { "type": ["string", "null"] },
+        "ap_taken": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "subject": { "type": "string" },
+              "year": { "type": "integer" },
+              "score": { "type": ["integer", "null"], "minimum": 1, "maximum": 5 }
+            }
+          }
+        }
+      }
+    },
+    "testing": {
+      "type": "object",
+      "properties": {
+        "psat": { "type": ["object", "null"] },
+        "sat": { "type": "array", "items": { "type": "object" } },
+        "act": { "type": "array", "items": { "type": "object" } },
+        "english_proficiency": { "type": ["object", "null"] }
+      }
+    },
+    "interests": {
+      "type": "object",
+      "properties": {
+        "majors": { "type": "array", "items": { "type": "string" } },
+        "size": { "type": "array", "items": { "enum": ["small", "medium", "large"] } },
+        "regions": { "type": "array", "items": { "type": "string" } },
+        "setting": { "type": "array", "items": { "enum": ["urban", "suburban", "rural"] } },
+        "must_haves": { "type": "array", "items": { "type": "string" } },
+        "special_tracks": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "finances": {
+      "type": "object",
+      "properties": {
+        "need_based_aid": { "type": ["boolean", "null"] },
+        "budget_per_year_usd": { "type": ["number", "null"] },
+        "income_bracket": {
+          "enum": [null, "0-30000", "30001-48000", "48001-75000", "75001-110000", "110001-plus"]
+        }
+      }
+    },
+    "narrative": {
+      "type": "object",
+      "properties": {
+        "spike": { "type": ["string", "null"] },
+        "hooks": { "type": "array", "items": { "type": "string" } }
+      }
+    }
+  }
+}

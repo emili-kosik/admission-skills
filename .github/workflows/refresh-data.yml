@@ -1,0 +1,49 @@
+name: Refresh datasets
+
+on:
+  schedule:
+    # Weekly during the application season (Aug-Feb), monthly otherwise.
+    - cron: "0 6 * 1,2,8,9,10,11,12 1"
+    - cron: "0 6 1 3,4,5,6,7 *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dev dependencies
+        run: python -m pip install -e ".[dev]"
+      - name: Download the Requirements Grid
+        run: |
+          mkdir -p tools/_downloads
+          curl -sSL -A "admission-skills-ci/1.0" -o tools/_downloads/ReqGrid.pdf \
+            https://content.commonapp.org/Files/ReqGrid.pdf
+      - name: Rebuild datasets
+        run: |
+          python tools/build_reqgrid.py --pdf tools/_downloads/ReqGrid.pdf
+          python tools/build_test_policy.py
+          python tools/build_college_index.py
+      - name: Validate
+        run: pytest tests/test_datasets.py -q
+      - name: Open PR if anything changed
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: data-refresh
+          title: "Data refresh: rebuilt datasets from primary sources"
+          commit-message: "Rebuild datasets from primary sources"
+          body: |
+            Automated rebuild of `data/deadlines.json`, `data/test_policy.json`,
+            and `data/college_index.json` from primary sources.
+
+            **A human must review** — check `_meta` diffs and the anchor-fact
+            test output before merging (PDF layout drift makes unattended
+            merges unsafe). See docs/MAINTAINERS.md.
+          labels: data-refresh

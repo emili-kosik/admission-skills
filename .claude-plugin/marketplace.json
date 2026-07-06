@@ -1,0 +1,19 @@
+{
+  "name": "admission-skills",
+  "owner": {
+    "name": "Emili Kosik",
+    "email": "emili-kosik@users.noreply.github.com"
+  },
+  "metadata": {
+    "description": "Admit — a Claude Code plugin guiding families through the US high school journey, college admissions prep, and applications."
+  },
+  "plugins": [
+    {
+      "name": "admit",
+      "source": "./",
+      "description": "US high school planning, college admissions prep, and application management for families. Live federal data, policy-compliant essay coaching, proactive deadline tracking.",
+      "category": "education",
+      "keywords": ["college", "admissions", "education", "family", "common-app", "fafsa"]
+    }
+  ]
+}

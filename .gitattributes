@@ -1,0 +1,10 @@
+* text=auto eol=lf
+*.py text eol=lf
+*.mjs text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.png binary
+*.pdf binary
+# .ics requires CRLF line endings (RFC 5545); the golden test compares bytes
+*.ics binary

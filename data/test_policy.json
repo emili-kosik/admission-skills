@@ -1,0 +1,7030 @@
+{
+ "_meta": {
+  "cycle": "2025-26",
+  "built_at": "2026-07-06",
+  "last_verified": "2026-07-06",
+  "count": 1156,
+  "sources": [
+   "Common App Requirements Grid testing-policy column (self-reported per college)",
+   "Hand-verified per-institution overrides with citations"
+  ],
+  "staleness_rule": "Test policies flipped repeatedly 2024-2026. Treat any 'required' claim older than 6 months as needing live verification before it is asserted.",
+  "legend": {
+   "required": "SAT/ACT required",
+   "optional": "test-optional",
+   "flexible": "test-flexible (alternatives accepted or sometimes required)",
+   "free": "test-free — scores never considered"
+  }
+ },
+ "policies": [
+  {
+   "name": "Aberystwyth University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Abilene Christian University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Adams State University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Adelphi University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Agnes Scott College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Air Force Academy",
+   "policy": "required",
+   "source": "commonapp_reqgrid",
+   "source_detail": "A"
+  },
+  {
+   "name": "Al Akhawayn University in Ifrane",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Alabama State University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Alaska Bible College",
+   "policy": "free",
+   "source": "commonapp_reqgrid",
+   "source_detail": "I"
+  },
+  {
+   "name": "Alaska Pacific University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Albany College of Pharmacy and Health Sciences",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Albertus Magnus College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Albion College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Albright College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Alfred University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Allegheny College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Alma College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Alvernia University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Alverno College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "AMDA College of the Performing Arts",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "AMDA The American Musical and Dramatic Academy",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "American College of the Mediterranean (ACM)",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "American International College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "American University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "American University in Bulgaria",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "American University of Beirut (AUB)",
+   "policy": "required",
+   "source": "commonapp_reqgrid",
+   "source_detail": "A"
+  },
+  {
+   "name": "Amherst College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Anatolia American University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Anderson University (IN)",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Anderson University (SC)",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Andrews University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Angelo State University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Anglo-American University in Prague",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Antioch College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Appalachian State University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Aquinas College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Arcadia University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Arizona Christian University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Arizona State University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Art Academy of Cincinnati",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Arts University Bournemouth, UK",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Asbury University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Ashland University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Assumption University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Auburn University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Auburn University at Montgomery",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Augsburg University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Augusta University",
+   "policy": "required",
+   "source": "commonapp_reqgrid",
+   "source_detail": "A"
+  },
+  {
+   "name": "Augustana College (Illinois)",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Augustana University (South Dakota)",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Aurora University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Austin College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Austin Peay State University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Ave Maria University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Avila University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Babson College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Baker College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Baldwin Wallace University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Ball State University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Bard College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Bard College Berlin",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Barnard College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Barry University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Barton College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Bates College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Bay Path University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Baylor University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Beacon College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Belhaven University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Bellarmine University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Belmont Abbey College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Belmont University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Beloit College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Benedict College - Columbia, SC",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Benedictine College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Benedictine University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Bennington College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Bentley University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Berry College",
+   "policy": "free",
+   "source": "commonapp_reqgrid",
+   "source_detail": "I"
+  },
+  {
+   "name": "Bethany College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Bethany Lutheran College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Bethel University (MN)",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Bethel University-TN",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Bishop's University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Black Hawk College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Blackburn College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Bluffton University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Boston College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Boston University",
+   "policy": "optional",
+   "source": "verified_override",
+   "source_url": "https://www.bu.edu/admissions/apply/first-year/test-policy/",
+   "verified": true,
+   "notes": "Verbatim: BU will \"remain test optional for students applying for admission through fall 2028 and spring 2029\" — covers the 2026-27 cycle, all schools and scholarship programs."
+  },
+  {
+   "name": "Bowdoin College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Bowling Green State University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Bradley University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Brandeis University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Brenau University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Brescia University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Brevard College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Briar Cliff University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Bridgewater College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Bridgewater State University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Brown University",
+   "policy": "required",
+   "source": "verified_override",
+   "source_url": "https://admission.brown.edu/first-year/standardized-tests",
+   "verified": true,
+   "notes": "Verbatim: \"Brown University has returned to a policy requiring standardized test scores (either SAT or ACT scores) for first-year applicants beginning with the 2024-25 admission cycle.\" Requirement remains in effect; no change announced for 2026-27."
+  },
+  {
+   "name": "Bryant University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Bryn Athyn College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Bryn Mawr College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Bucknell University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Buena Vista University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Bushnell University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Butler University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Cairn University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Caldwell University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "California College of the Arts",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "California Institute of Technology (Caltech)",
+   "policy": "required",
+   "source": "commonapp_reqgrid",
+   "source_detail": "A"
+  },
+  {
+   "name": "California Lutheran University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "California State University",
+   "policy": "free",
+   "source": "verified_override",
+   "source_url": "https://www.calstate.edu/apply/freshman/getting_into_the_csu/pages/testing-requirements.aspx",
+   "verified": true,
+   "notes": "CSU no longer uses SAT/ACT in determining admission eligibility at any campus (Title 5 amended by Trustees, March 2022; permanent). Scores used only for math/English course placement after admission."
+  },
+  {
+   "name": "California State University (all campuses)",
+   "policy": "free",
+   "source": "commonapp_reqgrid",
+   "source_detail": null
+  },
+  {
+   "name": "Caltech",
+   "policy": "required",
+   "source": "verified_override",
+   "source_url": "https://www.admissions.caltech.edu/apply/first-year-applicants/standardized-tests",
+   "verified": true,
+   "notes": "SAT or ACT required (requirement restored beginning fall 2025 entry). No preferred exam; superscored; top scores displayed to committee in 'buckets'."
+  },
+  {
+   "name": "Calumet College of St. Joseph",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Calvin University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Campbell University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Canisius University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Capital University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Capitol Technology University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Carl Sandburg College",
+   "policy": "required",
+   "source": "commonapp_reqgrid",
+   "source_detail": "A"
+  },
+  {
+   "name": "Carleton College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Carlow University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Carnegie Mellon University",
+   "policy": "flexible",
+   "source": "verified_override",
+   "source_url": "https://www.cmu.edu/admission/admission/standardized-testing",
+   "verified": true,
+   "notes": "Varies by college: School of Computer Science requires SAT or ACT; College of Fine Arts remains test-optional; all other colleges are test-flexible (must submit scores, choosing among SAT, ACT, IB, AP, Cambridge A-Level, or French Baccalaureate). Page referenced fall 2026 terms at fetch time; re-verify fall 2027 wording."
+  },
+  {
+   "name": "Carnegie Mellon University in Qatar",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Carolina University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Carroll College (Montana)",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Carroll University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Carson-Newman University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Carthage College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Case Western Reserve University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Catawba College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Cedar Crest College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Cedarville University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Centenary College of Louisiana",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Centenary University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Central Connecticut State University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Central Michigan University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Central State University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Central Washington University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Centre College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Chaminade University of Honolulu",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Champlain College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Chapman University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Charles R. Drew University of Medicine and Science",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Charleston Southern University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Chatham University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Chestnut Hill College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Cheyney University of Pennsylvania",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Chicago State University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Chowan University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Christian Brothers University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Christopher Newport University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Claflin University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Claremont McKenna College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Clark Atlanta University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Clark University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Clarkson University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Clayton State University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Clemson University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Cleveland Institute of Art",
+   "policy": "free",
+   "source": "commonapp_reqgrid",
+   "source_detail": "I"
+  },
+  {
+   "name": "Cleveland State University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Coastal Carolina University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Coe College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Coker University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Colby College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Colby-Sawyer College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Colgate University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "College for Creative Studies",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "College of Charleston",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "College of DuPage",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "College of Saint Benedict",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "College of Saint Mary",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "College of the Atlantic",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "College of the Holy Cross",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "College of Wooster",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Colorado College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Colorado School of Mines",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Colorado State University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Colorado State University Pueblo",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Columbia College Chicago",
+   "policy": "free",
+   "source": "commonapp_reqgrid",
+   "source_detail": "I"
+  },
+  {
+   "name": "Columbia College Missouri",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Columbia College South Carolina",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Columbia University",
+   "policy": "optional",
+   "source": "verified_override",
+   "source_url": "https://undergrad.admissions.columbia.edu/apply/process/testing",
+   "verified": true,
+   "notes": "Test-optional for Columbia College and Columbia Engineering in 2026-27. Starting August 2027 (2027-28 cycle), first-year and transfer applicants will be required to submit ACT or SAT scores (see also undergrad.admissions.columbia.edu/testing-policy-update). Supersedes earlier 'permanent test-optional' statement."
+  },
+  {
+   "name": "Columbus College of Art & Design",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Concord University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Concordia College at Moorhead",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Concordia University Chicago",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Concordia University Irvine",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Concordia University Texas",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Concordia University Wisconsin",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Concordia University, St. Paul",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Connecticut College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Converse University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Cooper Union for the Advancement of Science & Art",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Coppin State University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Cornell College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Cornell University",
+   "policy": "required",
+   "source": "verified_override",
+   "source_url": "https://admissions.cornell.edu/policies/standardized-testing-policy",
+   "verified": true,
+   "notes": "Applicants to all eight undergraduate colleges/schools seeking enrollment fall 2026 or beyond must submit SAT/ACT scores — covers the 2026-27 cycle (fall 2027 entry)."
+  },
+  {
+   "name": "Cornerstone University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Cottey College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Covenant College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Creighton University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Culver-Stockton College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Cumberland University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "CUNEF Universidad",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Curry College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "D'Youville University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Daemen University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Dallas Baptist University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Dartmouth College",
+   "policy": "required",
+   "source": "verified_override",
+   "source_url": "https://admissions.dartmouth.edu/apply/testing-policy",
+   "verified": true,
+   "notes": "SAT/ACT requirement reactivated beginning with Class of 2029 and continuing. US high school students must submit SAT or ACT; students at schools outside the US may substitute three AP exam results."
+  },
+  {
+   "name": "Davenport University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Davidson College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Dean College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Defiance College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Delaware State University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Delaware Valley University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Denison University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "DePaul University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "DePauw University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "DeSales University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Dharma Realm Buddhist University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Dickinson College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Dillard University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Dominican University (IL)",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Dominican University New York",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Dominican University of California",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Drake University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Drew University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Drexel University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Drury University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Dublin City University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Duke Kunshan University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Duke University",
+   "policy": "optional",
+   "source": "verified_override",
+   "source_url": "https://admissions.duke.edu/apply/",
+   "verified": true,
+   "notes": "Duke states it is test-optional for first-year and transfer applicants in the 2026-2027 admissions cycle. Exception: ROTC scholarship applicants must submit scores."
+  },
+  {
+   "name": "Duquesne University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Earlham College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "East Carolina University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "East Central University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "East Stroudsburg University of Pennsylvania",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "East Texas A&M University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "East Texas Baptist University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Eastern Connecticut State University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Eastern Illinois University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Eastern Mennonite University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Eastern Michigan University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Eastern Oregon University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Eastern Washington University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Eckerd College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Edgewood University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Edinburgh Napier University",
+   "policy": "required",
+   "source": "commonapp_reqgrid",
+   "source_detail": "A"
+  },
+  {
+   "name": "EHL Hospitality Business School",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Elim Bible College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Elizabeth City State University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Elizabethtown College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Elmhurst University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Elmira College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Elms College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Elon University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Emerson College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Emmanuel College (MA)",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Emory & Henry University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Emory University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Esade Barcelona",
+   "policy": "required",
+   "source": "commonapp_reqgrid",
+   "source_detail": "A"
+  },
+  {
+   "name": "ESCP Business School",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Eureka College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Evangel University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Fairfield University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Fairleigh Dickinson University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Faulkner University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Fayetteville State University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Fei Tian College - Northern Campus",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Felician University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Ferris State University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Ferrum College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Fisher College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Fisk University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Fitchburg State University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Flagler College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Florida Agricultural & Mechanical University (FAMU)",
+   "policy": "required",
+   "source": "commonapp_reqgrid",
+   "source_detail": "A"
+  },
+  {
+   "name": "Florida Atlantic University",
+   "policy": "required",
+   "source": "commonapp_reqgrid",
+   "source_detail": "A"
+  },
+  {
+   "name": "Florida Gulf Coast University",
+   "policy": "required",
+   "source": "commonapp_reqgrid",
+   "source_detail": "A"
+  },
+  {
+   "name": "Florida Institute of Technology",
+   "policy": "required",
+   "source": "commonapp_reqgrid",
+   "source_detail": "A"
+  },
+  {
+   "name": "Florida International University",
+   "policy": "required",
+   "source": "commonapp_reqgrid",
+   "source_detail": "A"
+  },
+  {
+   "name": "Florida Memorial University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Florida Polytechnic University",
+   "policy": "required",
+   "source": "commonapp_reqgrid",
+   "source_detail": "A"
+  },
+  {
+   "name": "Florida Southern College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Florida State University",
+   "policy": "required",
+   "source": "commonapp_reqgrid",
+   "source_detail": "A"
+  },
+  {
+   "name": "Fordham University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Fort Lewis College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Framingham State University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Franciscan Missionaries of Our Lady University (FranU)",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Franklin & Marshall College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Franklin College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Franklin Pierce University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Franklin University Switzerland",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Franklin W. Olin College of Engineering",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Fresno Pacific University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Frostburg State University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Furman University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Gannon University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Gardner-Webb University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Generations College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Geneva College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "George Fox University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "George Mason University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Georgetown College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Georgetown University",
+   "policy": "required",
+   "source": "verified_override",
+   "source_url": "https://uadmissions.georgetown.edu/applying/first-year-application/",
+   "verified": true,
+   "notes": "Verbatim: \"All applicants are required to take the SAT or the ACT.\" Georgetown never adopted test-optional; scores must be sent from the testing agency. Waived only for applicants who finished high school 5+ years before matriculation."
+  },
+  {
+   "name": "Georgia College & State University",
+   "policy": "required",
+   "source": "commonapp_reqgrid",
+   "source_detail": "A"
+  },
+  {
+   "name": "Georgia Institute of Technology",
+   "policy": "required",
+   "source": "commonapp_reqgrid",
+   "source_detail": "A"
+  },
+  {
+   "name": "Georgia Southern University",
+   "policy": "required",
+   "source": "commonapp_reqgrid",
+   "source_detail": "A"
+  },
+  {
+   "name": "Georgia State University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Georgia Tech",
+   "policy": "required",
+   "source": "verified_override",
+   "source_url": "https://admission.gatech.edu/first-year/standardized-tests",
+   "verified": true,
+   "notes": "SAT or ACT score required to complete an application; mandated by University System of Georgia Board of Regents (GT among the first USG schools to restore the requirement)."
+  },
+  {
+   "name": "Georgian Court University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Gettysburg College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Goldey-Beacom College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Gonzaga University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Gordon College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Goshen College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Goucher College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Governors State University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Grace College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Graceland University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Grand Valley State University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Grand View University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Greensboro College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Greenville University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Grinnell College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Guilford College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Gustavus Adolphus College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Gwynedd Mercy University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Hamilton College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Hamline University (MN)",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Hampden-Sydney College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Hampton University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Hanover College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Harcum College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Hardin-Simmons University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Harrisburg University of Science and Technology",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Hartwick College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Harvard University",
+   "policy": "required",
+   "source": "verified_override",
+   "source_url": "https://college.harvard.edu/admissions/apply/application-requirements",
+   "verified": true,
+   "notes": "Verbatim: \"Harvard requires the SAT or ACT to meet its standardized testing requirement.\" Limited exceptions (AP, IB, GCSE/A-Level, national leaving exams) only for documented access/affordability barriers."
+  },
+  {
+   "name": "Harvey Mudd College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Hastings College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Haverford College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Hawaii Pacific University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Heidelberg University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Hellenic College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Hendrix College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "High Point University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Hilbert College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Hillsdale College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Hiram College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Hobart and William Smith Colleges",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Hofstra University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Hollins University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Holy Apostles College & Seminary",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Holy Cross College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Hood College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Hope College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Houghton University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Houston Christian University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Howard University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Hult International Business School – U.S, U.K, Dubai",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Huntington University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Husson University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "ICN Business School",
+   "policy": "required",
+   "source": "commonapp_reqgrid",
+   "source_detail": "A"
+  },
+  {
+   "name": "IE University - Madrid Campus and Segovia Campus",
+   "policy": "required",
+   "source": "commonapp_reqgrid",
+   "source_detail": "A"
+  },
+  {
+   "name": "Illinois College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Illinois Institute of Technology",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Illinois State University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Illinois Wesleyan University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Immaculata University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Indiana State University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Indiana Tech",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Indiana University Bloomington",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Indiana University Indianapolis",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Indiana University Northwest",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Indiana University South Bend",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Indiana University Southeast",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Indiana Wesleyan University (Marion)",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Inter American University of Puerto Rico",
+   "policy": "required",
+   "source": "commonapp_reqgrid",
+   "source_detail": "A"
+  },
+  {
+   "name": "Iona University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Iowa State University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Ithaca College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Jack Kent Cooke Foundation",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Jackson State University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Jacksonville University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "James Madison University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Jarvis Christian University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "John Cabot University in Rome",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "John Carroll University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Johns Hopkins University",
+   "policy": "required",
+   "source": "verified_override",
+   "source_url": "https://hub.jhu.edu/2024/08/16/undergrad-admissions-standardized-test-requirement/",
+   "verified": true,
+   "notes": "SAT (Math + EBRW) or ACT (Math, Reading, English) required beginning with applicants for fall 2026 entry, continuing for 2026-27. Admissions testing page (apply.jhu.edu/how-to-apply/application-deadlines-requirements/standardized-testing/) had a TLS certificate error at fetch time; verified via official JHU Hub announcement."
+  },
+  {
+   "name": "Johnson & Wales University-Charlotte",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Johnson & Wales University-Providence",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Johnson C Smith University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Juniata College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Kalamazoo College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Kansas City Art Institute",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Kansas State University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Kean University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Keene State College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Keiser University Flagship Campus - West Palm Beach Florida",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Kennesaw State University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Kent State University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Kentucky College of Art + Design",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Kentucky State University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Kentucky Wesleyan College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Kenyon College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Kettering University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Keuka College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Keystone College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Kishwaukee College",
+   "policy": "required",
+   "source": "commonapp_reqgrid",
+   "source_detail": "A"
+  },
+  {
+   "name": "Knox College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Kutztown University of Pennsylvania",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "La Roche University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "La Salle University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "La Sierra University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Lafayette College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Lake Erie College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Lake Forest College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Lake Superior State University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Lamar University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Lander University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Landmark College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Lasell University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Lawrence Technological University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Lawrence University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Le Moyne College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Lebanese American University - LAU",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Lebanon Valley College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Leeds Beckett University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Lees-McRae College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Lehigh University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "LeMoyne-Owen College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Lenoir-Rhyne University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Lesley University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Lewis & Clark College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Lewis University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Liberty University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Life University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Lincoln Land Community College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Lincoln Memorial University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Lincoln University of Pennsylvania",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Lindenwood University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Linfield University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Lipscomb University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "List College The Jewish Theological Seminary",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Livingstone College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Long Island University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Longwood University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Loras College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Louisiana State University A&M-Baton Rouge",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Loyola Marymount University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Loyola University Chicago",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Loyola University Maryland",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Loyola University New Orleans",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Lubbock Christian University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Luther College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Lycoming College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Lynn University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Lyon College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Macalester College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Madonna University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Maine College of Art & Design",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Maine Maritime Academy",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Malone University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Manchester University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Manhattan University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Manhattanville University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Manor College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Marian University - Indiana",
+   "policy": "free",
+   "source": "commonapp_reqgrid",
+   "source_detail": "I"
+  },
+  {
+   "name": "Marian University - Wisconsin",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Marietta College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Marist University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Marquette University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Marshall University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Mary Baldwin University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Mary Immaculate College",
+   "policy": "required",
+   "source": "commonapp_reqgrid",
+   "source_detail": "A"
+  },
+  {
+   "name": "Maryland Institute College of Art",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Marymount Manhattan College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Marymount University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Maryville University of St. Louis",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Marywood University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Massachusetts College of Art and Design",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Massachusetts College of Liberal Arts",
+   "policy": "free",
+   "source": "commonapp_reqgrid",
+   "source_detail": "I"
+  },
+  {
+   "name": "Massachusetts College of Pharmacy and Health Sciences",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Massachusetts Institute of Technology",
+   "policy": "required",
+   "source": "commonapp_reqgrid",
+   "source_detail": null
+  },
+  {
+   "name": "Massachusetts Maritime Academy",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "McDaniel College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "McKendree University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "McMurry University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "McPherson College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Menlo College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Mercer University",
+   "policy": "required",
+   "source": "commonapp_reqgrid",
+   "source_detail": "A"
+  },
+  {
+   "name": "Mercy University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Mercyhurst University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Meredith College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Merrimack College",
+   "policy": "free",
+   "source": "commonapp_reqgrid",
+   "source_detail": "I"
+  },
+  {
+   "name": "Messiah University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Methodist University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Metropolitan College of New York",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Metropolitan State University of Denver (MSU Denver)",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Miami University (Ohio)",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Michigan State University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Michigan Technological University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Middlebury College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Midway University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Midwestern State University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Millersville University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Milligan University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Millikin University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Millsaps College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Milwaukee Institute of Art & Design",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Milwaukee School of Engineering",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Minerva University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Misericordia University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Mississippi College",
+   "policy": "required",
+   "source": "commonapp_reqgrid",
+   "source_detail": "A"
+  },
+  {
+   "name": "Mississippi State University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Mississippi Valley State University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Missouri Southern State University",
+   "policy": "required",
+   "source": "commonapp_reqgrid",
+   "source_detail": "A"
+  },
+  {
+   "name": "Missouri State University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Missouri University of Science and Technology",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Missouri Western State University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "MIT",
+   "policy": "required",
+   "source": "verified_override",
+   "source_url": "https://mitadmissions.org/apply/firstyear/tests-scores/",
+   "verified": true,
+   "notes": "MIT requires the SAT or ACT for first-year and transfer applicants (reinstated 2022). Scores may be self-reported; verified upon enrollment."
+  },
+  {
+   "name": "Mitchell College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Mohamed bin Zayed University of Artificial Intelligence",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Molloy University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Mondragon University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Monmouth College (IL)",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Monmouth University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Montana State University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Montana State University Billings",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Montclair State University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Montreat College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Montserrat College of Art",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Moore College of Art and Design",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Moravian University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Morehead State University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Morehouse College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Morgan State University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Morningside University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Morris Brown College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Mount Aloysius College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Mount Holyoke College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Mount Marty University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Mount Mary University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Mount Saint Mary College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Mount Saint Mary's University Los Angeles",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Mount St. Joseph University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Mount St. Mary's University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Mount Vernon Nazarene University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Muhlenberg College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Muskingum University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Naropa University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "National Louis University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Nazareth University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Nebraska Wesleyan University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Neumann University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "New College of Florida",
+   "policy": "required",
+   "source": "commonapp_reqgrid",
+   "source_detail": "A"
+  },
+  {
+   "name": "New England College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "New England Institute of Technology",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "New Jersey City University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "New Jersey Institute of Technology",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "New Mexico Institute of Mining and Technology",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "New Mexico State University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "New York Institute of Technology (NYIT)",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "New York School of Career and Applied Studies of Touro University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "New York University",
+   "policy": "optional",
+   "source": "verified_override",
+   "source_url": "https://www.nyu.edu/admissions/undergraduate-admissions/how-to-apply/standardized-tests.html",
+   "verified": true,
+   "notes": "NYU states it remains test-optional through the 2026-2027 application cycle. If submitting, NYU's test-flexible menu accepts SAT, ACT, IB, and various national exams."
+  },
+  {
+   "name": "Newberry College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Newman University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Niagara University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Nichols College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Norfolk State University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "North American University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "North Carolina A&T State University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "North Carolina Central University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "North Carolina State University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "North Carolina Wesleyan University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "North Central College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "North Park University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Northeastern Illinois University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Northeastern State University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Northeastern University",
+   "policy": "optional",
+   "source": "verified_override",
+   "source_url": "https://admissions.northeastern.edu/application-information/required-materials/",
+   "verified": true,
+   "notes": "Test-optional; official FAQ states Northeastern will remain test-optional for the foreseeable future. English proficiency testing still required for non-native speakers."
+  },
+  {
+   "name": "Northern Arizona University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Northern Illinois University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Northern Kentucky University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Northern Michigan University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Northwest Missouri State University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Northwest Nazarene University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Northwest University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Northwestern University",
+   "policy": "optional",
+   "source": "verified_override",
+   "source_url": "https://admissions.northwestern.edu/faqs/standardized-testing-policy/",
+   "verified": true,
+   "notes": "Verbatim: Northwestern \"will not require ACT or SAT scores from first-year or transfer candidates.\" Page most recently referenced fall 2026 enrollment; no change announced for 2026-27.",
+   "superseded_reqgrid_value": "flexible"
+  },
+  {
+   "name": "Northwestern University in Qatar",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Northwood University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Norwich University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Notre Dame of Maryland University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Nova Southeastern University",
+   "policy": "required",
+   "source": "commonapp_reqgrid",
+   "source_detail": "A"
+  },
+  {
+   "name": "Oakland University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Oakton College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Oberlin College of Arts and Sciences",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Oberlin Conservatory of Music",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Occidental College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Oglethorpe University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Ohio Dominican University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Ohio Northern University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Ohio University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Ohio Wesleyan University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Oklahoma Baptist University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Oklahoma Christian University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Oklahoma City University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Oklahoma State University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Old Dominion University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Ole Miss - The University of Mississippi",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Oral Roberts University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Oregon State University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Oregon Tech",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Otis College of Art and Design",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Otterbein University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Pace University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Pacific Lutheran University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Pacific Northwest College of Art",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Pacific University Oregon",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Paine College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Palm Beach Atlantic University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Park University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Paul Smith's College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Penn State",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Pennsylvania College of Art & Design",
+   "policy": "free",
+   "source": "commonapp_reqgrid",
+   "source_detail": "I"
+  },
+  {
+   "name": "Pennsylvania College of Technology",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Pennsylvania Western University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Pepperdine University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Pfeiffer University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Piedmont University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Pitzer College",
+   "policy": "free",
+   "source": "commonapp_reqgrid",
+   "source_detail": "I"
+  },
+  {
+   "name": "Plymouth State University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Point Loma Nazarene University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Point Park University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Pomona College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Portland State University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Pratt Institute",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Presbyterian College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Prescott College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Princeton University",
+   "policy": "optional",
+   "source": "verified_override",
+   "source_url": "https://admission.princeton.edu/how-apply/standardized-testing",
+   "verified": true,
+   "notes": "Verbatim: \"For first-year and transfer applicants seeking to enroll in fall 2027, Princeton remains test optional.\" and \"Princeton will return to requiring standardized testing for undergraduate admission beginning with the 2027-28 admission cycle.\" Test-optional through the 2026-27 cycle only."
+  },
+  {
+   "name": "Principia College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Providence College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Purchase College, SUNY",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Purdue University",
+   "policy": "required",
+   "source": "commonapp_reqgrid",
+   "source_detail": "A"
+  },
+  {
+   "name": "Purdue University Fort Wayne",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Purdue University Northwest",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Queen's University, Canada",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Queens University of Charlotte",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Quincy University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Quinnipiac University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Radford University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Ramapo College of New Jersey",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Randolph College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Randolph-Macon College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Reed College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Regent University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Regis College",
+   "policy": "free",
+   "source": "commonapp_reqgrid",
+   "source_detail": "I"
+  },
+  {
+   "name": "Regis University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Reinhardt University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Rend Lake College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Rensselaer Polytechnic Institute",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Rhode Island College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Rhode Island School of Design",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Rhodes College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Rice University",
+   "policy": "optional",
+   "source": "verified_override",
+   "source_url": "https://admission.rice.edu/frequently-asked-questions",
+   "verified": true,
+   "notes": "Rice 'recommends' but does not require SAT/ACT; applicants without scores receive full consideration."
+  },
+  {
+   "name": "Richard Bland College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Richmond The American International University in London",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Rider University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Ringling College of Art and Design",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Ripon College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Rivier University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Roanoke College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Robert Morris University (PA)",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Roberts Wesleyan University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Rochester Institute of Technology",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Rockford University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Rockhurst University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Roger Williams University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Rollins College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Roosevelt University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Rose-Hulman Institute of Technology",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Rowan University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Russell Sage College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Rutgers University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Sacred Heart University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Saint Anselm College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Saint Elizabeth University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Saint Francis University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Saint John's University (MN)",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Saint Joseph's College of Maine",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Saint Joseph's University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Saint Leo University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Saint Louis University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Saint Louis University- Madrid",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Saint Martin's University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Saint Mary's College of California",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Saint Mary's College, Notre Dame, Indiana",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Saint Mary's University of Minnesota",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Saint Mary-of-the- Woods College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Saint Michael's College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Saint Peter's University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Saint Vincent College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Saint Xavier University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Salem College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Salem State University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Salisbury University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Salve Regina University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Salzburg College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Sam Houston State University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Samford University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "San Francisco Bay University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Santa Clara University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Sarah Lawrence College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Sauk Valley Community College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Savannah College of Art and Design",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Savannah State University",
+   "policy": "required",
+   "source": "commonapp_reqgrid",
+   "source_detail": "A"
+  },
+  {
+   "name": "School of the Art Institute of Chicago",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "School of Visual Arts",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Schreiner University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Scripps College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Seattle Pacific University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Seattle University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Seton Hall University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Seton Hill University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Sewanee: The University of the South",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Shanghai Jiao Tong University Global College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Shaw University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Shawnee State University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Shenandoah University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Shepherd University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Shippensburg University of Pennsylvania",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Siena University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Simmons University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Simon's Rock at Bard College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Simpson College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Simpson University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "SKEMA Business School - US Campus",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Skidmore College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Smith College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Soka University of America",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "South Carolina State University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Southeast Missouri State University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Southeastern University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Southern California Institute of Architecture",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Southern Connecticut State University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Southern Illinois University Carbondale",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Southern Illinois University Edwardsville",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Southern Methodist University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Southern Nazarene University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Southern New Hampshire University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Southern Oregon University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Southern University and A&M College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Southern University at New Orleans (SUNO)",
+   "policy": "required",
+   "source": "commonapp_reqgrid",
+   "source_detail": "A"
+  },
+  {
+   "name": "Southern Utah University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Southwestern University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Spalding University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Spartanburg Methodist College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Spelman College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Spring Arbor University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Spring Hill College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Springfield College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "St. Ambrose University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "St. Bonaventure University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "St. Catherine University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "St. Edward's University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "St. Francis College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "St. John Fisher University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "St. John's College (MD)",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "St. John's College (NM)",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "St. John's University (NY)",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "St. Joseph's University, New York - Brooklyn Campus",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "St. Joseph’s University, New York - Long Island Campus",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "St. Lawrence University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "St. Mary's College of Maryland",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "St. Mary's University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "St. Norbert College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "St. Olaf College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "St. Thomas Aquinas College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "St. Thomas University (FL)",
+   "policy": "free",
+   "source": "commonapp_reqgrid",
+   "source_detail": "I"
+  },
+  {
+   "name": "St. Thomas University, Canada",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Stanford University",
+   "policy": "required",
+   "source": "verified_override",
+   "source_url": "https://admission.stanford.edu/apply/freshman/testing.html",
+   "verified": true,
+   "notes": "Verbatim: \"ACT or SAT scores are required for first-year and transfer students.\" Requirement began with fall 2026 entry and continues."
+  },
+  {
+   "name": "State University System of Florida",
+   "policy": "required",
+   "source": "verified_override",
+   "source_url": "https://admissions.ufl.edu/apply/freshman/requirements",
+   "verified": true,
+   "notes": "Florida Board of Governors Regulation 6.002 requires an SAT, ACT, or CLT score for first-time-in-college admission at all 12 SUS institutions (incl. UF, FSU). Florida publics never went test-optional."
+  },
+  {
+   "name": "Stephen F. Austin State University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Stephens College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Stetson University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Stevens Institute of Technology",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Stevenson University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Stockton University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Stonehill College",
+   "policy": "free",
+   "source": "commonapp_reqgrid",
+   "source_detail": "I"
+  },
+  {
+   "name": "Suffolk University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "SUNY Alfred State College of Technology",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "SUNY Binghamton University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "SUNY Buffalo State",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "SUNY Cobleskill",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "SUNY College at Brockport",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "SUNY College at Geneseo",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "SUNY College at Old Westbury",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "SUNY College of Environmental Science & Forestry",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "SUNY College of Technology at Canton",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "SUNY Cortland",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "SUNY Farmingdale State College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "SUNY Fredonia",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "SUNY Maritime College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "SUNY Morrisville State College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "SUNY New Paltz",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "SUNY Oneonta",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "SUNY Oswego",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "SUNY Plattsburgh",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "SUNY Polytechnic Institute",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "SUNY Potsdam",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "SUNY Stony Brook University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "SUNY University at Buffalo",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "SUNY, University at Albany",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Swarthmore College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Sweet Briar College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Syracuse University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Taejae University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Tarleton State University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Taylor University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Temple University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Temple University, Japan Campus",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Tennessee State University",
+   "policy": "required",
+   "source": "commonapp_reqgrid",
+   "source_detail": "A"
+  },
+  {
+   "name": "Texas A&M University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Texas A&M University - San Antonio",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Texas A&M University at Galveston",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Texas Christian University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Texas College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Texas Lutheran University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Texas State University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Texas Tech University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Texas Wesleyan University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Texas Woman's University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "The American College of Greece",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "The American University of Greece Global Campus",
+   "policy": "free",
+   "source": "commonapp_reqgrid",
+   "source_detail": "I"
+  },
+  {
+   "name": "The American University of Paris",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "The American University of Rome",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "The Catholic University of America",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "The Citadel, The Military College of South Carolina",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "The College of Idaho",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "The College of New Jersey",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "The College of St. Scholastica",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "The Culinary Institute of America",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "The Evergreen State College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "The George Washington University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "The Master's University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "The New School",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "The Ohio State University",
+   "policy": "required",
+   "source": "commonapp_reqgrid",
+   "source_detail": "A"
+  },
+  {
+   "name": "The University of Alabama",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "The University of Alabama in Huntsville",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "The University of Arizona",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "The University of Findlay",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "The University of Hong Kong",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "The University of Memphis",
+   "policy": "required",
+   "source": "commonapp_reqgrid",
+   "source_detail": "A"
+  },
+  {
+   "name": "The University of Oklahoma",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "The University of Olivet",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "The University of Scranton",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "The University of South Alabama",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "The University of Tennessee Knoxville",
+   "policy": "required",
+   "source": "commonapp_reqgrid",
+   "source_detail": "A"
+  },
+  {
+   "name": "The University of Tennessee- Chattanooga",
+   "policy": "required",
+   "source": "commonapp_reqgrid",
+   "source_detail": "A"
+  },
+  {
+   "name": "The University of Tennessee-Martin",
+   "policy": "required",
+   "source": "commonapp_reqgrid",
+   "source_detail": "A"
+  },
+  {
+   "name": "The University of Tennessee-Southern",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "The University of Texas at Arlington",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "The University of Texas at Austin",
+   "policy": "required",
+   "source": "commonapp_reqgrid",
+   "source_detail": "A"
+  },
+  {
+   "name": "The University of Texas at Dallas",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "The University of Texas at El Paso",
+   "policy": "required",
+   "source": "commonapp_reqgrid",
+   "source_detail": "A"
+  },
+  {
+   "name": "The University of Texas at San Antonio",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "The University of Texas at Tyler",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "The University of Tulsa",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "The University of Utah",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "The University of Virginia's College at Wise",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "The University of West Florida",
+   "policy": "required",
+   "source": "commonapp_reqgrid",
+   "source_detail": "A"
+  },
+  {
+   "name": "Thiel College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Thomas College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Thomas Jefferson University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Thomas More University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Tiffin University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Towson University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Transylvania University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Trevecca Nazarene University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Trine University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Trinity College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Trinity University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Trinity Washington University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Triton College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Truman State University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Tufts University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Tulane University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Tusculum University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Tuskegee University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "UCAM Universidad Católica de Murcia",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "UMBC: University of Maryland, Baltimore County",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "UNC Chapel Hill",
+   "policy": "optional",
+   "source": "verified_override",
+   "source_url": "https://admissions.unc.edu/faqs/how-does-unc-look-at-act-or-sat-test-scores/",
+   "verified": true,
+   "notes": "UNC System policy (effective fall 2026, applies 2026-27 and beyond): weighted GPA 2.8+ = no test score required; below 2.8 = must submit ACT 17+ or SAT 930+. Effectively test-optional for most applicants, conditionally required below the GPA threshold."
+  },
+  {
+   "name": "Union College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Universidad Carlos III de Madrid",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Universidad del Sagrado Corazon",
+   "policy": "required",
+   "source": "commonapp_reqgrid",
+   "source_detail": "A"
+  },
+  {
+   "name": "University College Dublin",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "University of Aberdeen",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "University of Akron",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "University of Alabama at Birmingham (UAB)",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "University of Alaska Fairbanks",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "University of Arkansas",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "University of Bradford",
+   "policy": "required",
+   "source": "commonapp_reqgrid",
+   "source_detail": "A"
+  },
+  {
+   "name": "University of Bridgeport",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "University of California",
+   "policy": "free",
+   "source": "verified_override",
+   "source_url": "https://admission.universityofcalifornia.edu/admission-requirements/first-year-requirements/",
+   "verified": true,
+   "notes": "Verbatim: \"UC will not consider SAT or ACT test scores when making admissions decisions or awarding scholarships.\" Permanent test-free/test-blind policy (Regents decision, Nov 2021); scores usable only for post-enrollment course placement or eligibility alternatives."
+  },
+  {
+   "name": "University of California (all campuses)",
+   "policy": "free",
+   "source": "commonapp_reqgrid",
+   "source_detail": null
+  },
+  {
+   "name": "University of Central Arkansas",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "University of Central Florida",
+   "policy": "required",
+   "source": "commonapp_reqgrid",
+   "source_detail": "A"
+  },
+  {
+   "name": "University of Central Missouri",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "University of Charleston",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "University of Chicago",
+   "policy": "optional",
+   "source": "verified_override",
+   "source_url": "https://collegeadmissions.uchicago.edu/apply/application/required-materials/",
+   "verified": true,
+   "notes": "Test-optional under the UChicago Empower Initiative (since 2018); no announced end date. Confirmed via uchicago.edu admissions/news pages."
+  },
+  {
+   "name": "University of Cincinnati",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "University of Colorado Boulder",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "University of Colorado Colorado Springs",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "University of Colorado Denver",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "University of Connecticut",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "University of Dallas",
+   "policy": "required",
+   "source": "commonapp_reqgrid",
+   "source_detail": "A"
+  },
+  {
+   "name": "University of Dayton",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "University of Delaware",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "University of Denver",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "University of Detroit Mercy",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "University of Dubuque",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "University of Dundee",
+   "policy": "free",
+   "source": "commonapp_reqgrid",
+   "source_detail": "I"
+  },
+  {
+   "name": "University of East London",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "University of Evansville",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "University of Florida",
+   "policy": "required",
+   "source": "verified_override",
+   "source_url": "https://admissions.ufl.edu/apply/freshman/requirements",
+   "verified": true,
+   "notes": "Verbatim: \"All applicants must submit test scores from the SAT, ACT and/or CLT.\" Requirement mandated system-wide by Florida Board of Governors Regulation 6.002; ACT Science subscore no longer required."
+  },
+  {
+   "name": "University of Georgia",
+   "policy": "required",
+   "source": "commonapp_reqgrid",
+   "source_detail": "A"
+  },
+  {
+   "name": "University of Glasgow",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "University of Guelph",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "University of Hartford",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "University of Holy Cross",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "University of Houston",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "University of Idaho",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "University of Illinois Chicago",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "University of Illinois Springfield",
+   "policy": "free",
+   "source": "commonapp_reqgrid",
+   "source_detail": "I"
+  },
+  {
+   "name": "University of Illinois Urbana-Champaign",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "University of Indianapolis",
+   "policy": "free",
+   "source": "commonapp_reqgrid",
+   "source_detail": "I"
+  },
+  {
+   "name": "University of Iowa",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "University of Kansas",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "University of Kentucky",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "University of La Verne",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "University of Limerick",
+   "policy": "required",
+   "source": "commonapp_reqgrid",
+   "source_detail": "A"
+  },
+  {
+   "name": "University of Louisiana at Lafayette",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "University of Louisville",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "University of Lynchburg",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "University of Maine",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "University of Maine at Augusta",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "University of Maine at Farmington",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "University of Maine at Fort Kent",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "University of Maine at Presque Isle",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "University of Mary Hardin-Baylor",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "University of Mary Washington",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "University of Maryland",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "University of Maryland Eastern Shore",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "University of Massachusetts Amherst",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "University of Massachusetts Boston",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "University of Massachusetts Dartmouth",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "University of Massachusetts Lowell",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "University of Miami",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "University of Michigan",
+   "policy": "optional",
+   "source": "verified_override",
+   "source_url": "https://teamdynamix.umich.edu/TDClient/154/Portal/KB/ArticleDet?ID=7490",
+   "verified": true,
+   "notes": "Formally adopted test-optional (previously 'test-flexible' 2020-24). Only SAT/ACT considered if submitted; AP/IB no longer accepted in place of SAT/ACT. See also record.umich.edu/articles/u-m-formally-adopts-test-optional-admissions-policy/.",
+   "superseded_reqgrid_value": "flexible"
+  },
+  {
+   "name": "University of Michigan- Dearborn",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "University of Michigan- Flint",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "University of Minnesota Crookston",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "University of Minnesota Duluth",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "University of Minnesota Morris",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "University of Minnesota Rochester",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "University of Minnesota Twin Cities",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "University of Missouri",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "University of Missouri- Kansas City",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "University of Missouri-St Louis",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "University of Montana",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "University of Mount Saint Vincent",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "University of Mount Union",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "University of Nebraska- Lincoln",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "University of Nevada, Las Vegas (UNLV)",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "University of Nevada- Reno",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "University of New England",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "University of New Hampshire",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "University of New Haven",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "University of New Mexico",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "University of New Orleans",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "University of North Carolina Asheville",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "University of North Carolina at Chapel Hill",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "University of North Carolina at Charlotte",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "University of North Carolina at Pembroke",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "University of North Carolina Greensboro",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "University of North Carolina Wilmington",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "University of North Dakota",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "University of North Florida",
+   "policy": "required",
+   "source": "commonapp_reqgrid",
+   "source_detail": "A"
+  },
+  {
+   "name": "University of North Georgia",
+   "policy": "required",
+   "source": "commonapp_reqgrid",
+   "source_detail": "A"
+  },
+  {
+   "name": "University of North Texas",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "University of North Texas at Dallas",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "University of Northern Colorado",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "University of Northern Iowa",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "University of Northwestern-St. Paul",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "University of Notre Dame",
+   "policy": "optional",
+   "source": "verified_override",
+   "source_url": "https://admissions.nd.edu/apply/faqs/",
+   "verified": true,
+   "notes": "Notre Dame states it is test-optional for all applicants through the 2026-27 school year; policy beyond that not announced."
+  },
+  {
+   "name": "University of Oregon",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "University of Pennsylvania",
+   "policy": "required",
+   "source": "verified_override",
+   "source_url": "https://admissions.upenn.edu/admissions-and-financial-aid/what-penn-looks-for/testing",
+   "verified": true,
+   "notes": "Verbatim (page current as of fetch): \"Penn applicants are required to submit the SAT or ACT for the 2025-26 application cycle.\" Hardship waiver available. No published statement changing the requirement for 2026-27 found as of 2026-07-06; requirement presumed continuing — re-verify when Penn updates its testing page."
+  },
+  {
+   "name": "University of Pittsburgh",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "University of Plymouth",
+   "policy": "free",
+   "source": "commonapp_reqgrid",
+   "source_detail": "I"
+  },
+  {
+   "name": "University of Portland",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "University of Puget Sound",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "University of Redlands",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "University of Rhode Island",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "University of Richmond",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "University of Rochester",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "University of Roehampton, London",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "University of Saint Francis-Fort Wayne Indiana",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "University of Saint Joseph",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "University of San Diego",
+   "policy": "free",
+   "source": "commonapp_reqgrid",
+   "source_detail": "I"
+  },
+  {
+   "name": "University of San Francisco",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "University of Science and Arts of Oklahoma",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "University of Sioux Falls",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "University of South Carolina Aiken",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "University of South Carolina Columbia",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "University of South Carolina Upstate",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "University of South Dakota",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "University of South Florida",
+   "policy": "required",
+   "source": "commonapp_reqgrid",
+   "source_detail": "A"
+  },
+  {
+   "name": "University of Southern California",
+   "policy": "optional",
+   "source": "verified_override",
+   "source_url": "https://admission.usc.edu/test-optional-faq/",
+   "verified": true,
+   "notes": "USC states it will continue test-optional; SAT/ACT not required, considered if sent (official scores only, not self-reported). No end date announced."
+  },
+  {
+   "name": "University of Southern Indiana",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "University of Southern Maine",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "University of Southern Mississippi",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "University of St Andrews",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "University of St. Francis (IL)",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "University of St. Thomas (MN)",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "University of St. Thomas - Houston",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "University of Stirling",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "University of Tampa",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "University of Tennessee System",
+   "policy": "required",
+   "source": "verified_override",
+   "source_url": "https://admissions.utk.edu/undergraduate-application/test-score-policy/",
+   "verified": true,
+   "notes": "UT System campuses (incl. UT Knoxville) require first-year applicants to submit/self-report ACT or SAT scores; scores also drive Tennessee in-state guaranteed-admission thresholds (e.g., ACT 24+/SAT 1160+ at UTK)."
+  },
+  {
+   "name": "University of Texas at Austin",
+   "policy": "required",
+   "source": "verified_override",
+   "source_url": "https://news.utexas.edu/2024/03/11/ut-austin-reinstates-standardized-test-scores-in-admissions/",
+   "verified": true,
+   "notes": "SAT/ACT requirement reinstated beginning with fall 2025 applications and continuing (see also admissions.utexas.edu/standardized-testing-policy-FAQ)."
+  },
+  {
+   "name": "University of Texas Permian Basin",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "University of the District of Columbia",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "University of the Highlands and Islands",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "University of the Incarnate Word",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "University of the Pacific",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "University of the West of England (UWE), Bristol",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "University of Vermont",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "University of Virginia",
+   "policy": "optional",
+   "source": "verified_override",
+   "source_url": "https://admission.virginia.edu/node/446",
+   "verified": false,
+   "notes": "UVA's published policy confirms test-optional for the Fall 2026 entry cycle; an explicit statement covering the 2026-27 cycle (Fall 2027 entry) was not found as of 2026-07-06. Re-verify before shipping."
+  },
+  {
+   "name": "University of Washington",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "University of Washington Bothell",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "University of Washington Tacoma",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "University of Wisconsin - Parkside",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "University of Wisconsin - River Falls",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "University of Wisconsin- Eau Claire",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "University of Wisconsin- Madison",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "University of Wisconsin- Milwaukee",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "University of Wisconsin- Stevens Point",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "University of Wisconsin- Stout",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "University of Wisconsin- Whitewater",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "University of Worcester (UK)",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "University of Wyoming",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "University System of Georgia",
+   "policy": "required",
+   "source": "verified_override",
+   "source_url": "https://www.usg.edu/announcements/usg_to_extend_temporary_test_optional_admission_for_academic_year_2025_2026",
+   "verified": true,
+   "notes": "Board of Regents restored SAT/ACT requirements: UGA, Georgia Tech, and Georgia College already require scores; Augusta, Georgia State, Georgia Southern, and Kennesaw State require them beginning fall 2026. Minimum scores enforced at these seven institutions; some other USG schools remain test-optional."
+  },
+  {
+   "name": "Upper Iowa University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Ursinus College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Ursuline College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Utah State University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Utah Tech University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Utica University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Valdosta State University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Valparaiso University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Vanderbilt University",
+   "policy": "optional",
+   "source": "verified_override",
+   "source_url": "https://admissions.vanderbilt.edu/apply/testing-policies/",
+   "verified": true,
+   "notes": "Test-optional extended through fall 2027 entry (i.e., includes the 2026-27 cycle), per admissions.vanderbilt.edu/vandybloggers/2024/01/vanderbilt-extends-test-optional-policy-through-2027/."
+  },
+  {
+   "name": "Vassar College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Vaughn College of Aeronautics and Technology",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Vermont State University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Villa Maria College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Villanova University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Vincennes University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Virginia Commonwealth University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Virginia Military Institute",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Virginia State University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Virginia Tech",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Virginia Wesleyan University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Viterbo University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Wabash College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Wagner College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Wake Forest University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Wake Technical Community College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Walsh University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Warner Pacific University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Warren Wilson College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Wartburg College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Washington & Jefferson College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Washington Adventist University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Washington and Lee University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Washington College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Washington State University",
+   "policy": "free",
+   "source": "commonapp_reqgrid",
+   "source_detail": "I"
+  },
+  {
+   "name": "Washington University in St. Louis",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Wayne State University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Waynesburg University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Webb Institute",
+   "policy": "required",
+   "source": "commonapp_reqgrid",
+   "source_detail": "A"
+  },
+  {
+   "name": "Webber International University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Webster University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Wellesley College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Wentworth Institute of Technology",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Wesleyan College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Wesleyan University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "West Chester University of Pennsylvania",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "West Texas A&M University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "West Virginia State University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "West Virginia University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "West Virginia Wesleyan College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Western Carolina University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Western Colorado University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Western Connecticut State University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Western Illinois University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Western Kentucky University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Western Michigan University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Western New England University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Western Oregon University",
+   "policy": "free",
+   "source": "commonapp_reqgrid",
+   "source_detail": "I"
+  },
+  {
+   "name": "Western Washington University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Westfield State University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Westlake University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Westminster College (Missouri)",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Westminster College (Pennsylvania)",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Westminster University (Utah)",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Westmont College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Wheaton College (IL)",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Wheaton College, Massachusetts",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Wheeling University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Whitman College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Whittier College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Whitworth University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Wichita State University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Widener University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Wilberforce University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Wiley University",
+   "policy": "free",
+   "source": "commonapp_reqgrid",
+   "source_detail": "I"
+  },
+  {
+   "name": "Wilkes Honors College of FAU",
+   "policy": "required",
+   "source": "commonapp_reqgrid",
+   "source_detail": "A"
+  },
+  {
+   "name": "Wilkes University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Willamette University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "William & Mary",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "William Jewell College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "William Paterson University of NJ",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "William Peace University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "William Rainey Harper College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "William Woods University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Williams College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Wilmington College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Wilson College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Wingate University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Winston-Salem State University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Winthrop University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Wisconsin Lutheran College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Wittenberg University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Wofford College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Woodbury University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Worcester Polytechnic Institute",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Worcester State University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Wright State University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Xavier University",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "Xavier University of Louisiana",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Yale University",
+   "policy": "required",
+   "source": "verified_override",
+   "source_url": "https://admissions.yale.edu/standardized-testing",
+   "verified": true,
+   "notes": "Verbatim: \"All first-year and transfer applicants must include scores from the ACT or SAT.\" Announced May 27, 2026: the prior test-flexible policy (ACT/SAT/AP/IB) ends; SAT or ACT required beginning with Class of 2031 (2026-27 cycle). AP/IB may be submitted alongside but no longer substitute.",
+   "superseded_reqgrid_value": "flexible"
+  },
+  {
+   "name": "York College of Pennsylvania",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  },
+  {
+   "name": "York County Community College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Youngstown State University",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "F"
+  },
+  {
+   "name": "Zane State College",
+   "policy": "flexible",
+   "source": "commonapp_reqgrid",
+   "source_detail": "S"
+  },
+  {
+   "name": "Zaytuna College",
+   "policy": "optional",
+   "source": "commonapp_reqgrid",
+   "source_detail": "N"
+  }
+ ]
+}

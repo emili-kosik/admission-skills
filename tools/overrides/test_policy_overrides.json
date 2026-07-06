@@ -1,0 +1,257 @@
+{
+ "_meta": {
+  "cycle": "2026-27",
+  "built_at": "2026-07-06",
+  "last_verified": "2026-07-06",
+  "source": "Per-institution admissions pages / compassprep.com / fairtest.org (verified individually)"
+ },
+ "policies": [
+  {
+   "name": "Harvard University",
+   "policy": "required",
+   "source_url": "https://college.harvard.edu/admissions/apply/application-requirements",
+   "verified": true,
+   "notes": "Verbatim: \"Harvard requires the SAT or ACT to meet its standardized testing requirement.\" Limited exceptions (AP, IB, GCSE/A-Level, national leaving exams) only for documented access/affordability barriers."
+  },
+  {
+   "name": "Yale University",
+   "policy": "required",
+   "source_url": "https://admissions.yale.edu/standardized-testing",
+   "verified": true,
+   "notes": "Verbatim: \"All first-year and transfer applicants must include scores from the ACT or SAT.\" Announced May 27, 2026: the prior test-flexible policy (ACT/SAT/AP/IB) ends; SAT or ACT required beginning with Class of 2031 (2026-27 cycle). AP/IB may be submitted alongside but no longer substitute."
+  },
+  {
+   "name": "Princeton University",
+   "policy": "optional",
+   "source_url": "https://admission.princeton.edu/how-apply/standardized-testing",
+   "verified": true,
+   "notes": "Verbatim: \"For first-year and transfer applicants seeking to enroll in fall 2027, Princeton remains test optional.\" and \"Princeton will return to requiring standardized testing for undergraduate admission beginning with the 2027-28 admission cycle.\" Test-optional through the 2026-27 cycle only."
+  },
+  {
+   "name": "Columbia University",
+   "policy": "optional",
+   "source_url": "https://undergrad.admissions.columbia.edu/apply/process/testing",
+   "verified": true,
+   "notes": "Test-optional for Columbia College and Columbia Engineering in 2026-27. Starting August 2027 (2027-28 cycle), first-year and transfer applicants will be required to submit ACT or SAT scores (see also undergrad.admissions.columbia.edu/testing-policy-update). Supersedes earlier 'permanent test-optional' statement."
+  },
+  {
+   "name": "University of Pennsylvania",
+   "policy": "required",
+   "source_url": "https://admissions.upenn.edu/admissions-and-financial-aid/what-penn-looks-for/testing",
+   "verified": true,
+   "notes": "Verbatim (page current as of fetch): \"Penn applicants are required to submit the SAT or ACT for the 2025-26 application cycle.\" Hardship waiver available. No published statement changing the requirement for 2026-27 found as of 2026-07-06; requirement presumed continuing — re-verify when Penn updates its testing page."
+  },
+  {
+   "name": "Brown University",
+   "policy": "required",
+   "source_url": "https://admission.brown.edu/first-year/standardized-tests",
+   "verified": true,
+   "notes": "Verbatim: \"Brown University has returned to a policy requiring standardized test scores (either SAT or ACT scores) for first-year applicants beginning with the 2024-25 admission cycle.\" Requirement remains in effect; no change announced for 2026-27."
+  },
+  {
+   "name": "Dartmouth College",
+   "policy": "required",
+   "source_url": "https://admissions.dartmouth.edu/apply/testing-policy",
+   "verified": true,
+   "notes": "SAT/ACT requirement reactivated beginning with Class of 2029 and continuing. US high school students must submit SAT or ACT; students at schools outside the US may substitute three AP exam results."
+  },
+  {
+   "name": "Cornell University",
+   "policy": "required",
+   "source_url": "https://admissions.cornell.edu/policies/standardized-testing-policy",
+   "verified": true,
+   "notes": "Applicants to all eight undergraduate colleges/schools seeking enrollment fall 2026 or beyond must submit SAT/ACT scores — covers the 2026-27 cycle (fall 2027 entry)."
+  },
+  {
+   "name": "Stanford University",
+   "policy": "required",
+   "source_url": "https://admission.stanford.edu/apply/freshman/testing.html",
+   "verified": true,
+   "notes": "Verbatim: \"ACT or SAT scores are required for first-year and transfer students.\" Requirement began with fall 2026 entry and continues."
+  },
+  {
+   "name": "MIT",
+   "policy": "required",
+   "source_url": "https://mitadmissions.org/apply/firstyear/tests-scores/",
+   "verified": true,
+   "notes": "MIT requires the SAT or ACT for first-year and transfer applicants (reinstated 2022). Scores may be self-reported; verified upon enrollment."
+  },
+  {
+   "name": "Caltech",
+   "policy": "required",
+   "source_url": "https://www.admissions.caltech.edu/apply/first-year-applicants/standardized-tests",
+   "verified": true,
+   "notes": "SAT or ACT required (requirement restored beginning fall 2025 entry). No preferred exam; superscored; top scores displayed to committee in 'buckets'."
+  },
+  {
+   "name": "Georgetown University",
+   "policy": "required",
+   "source_url": "https://uadmissions.georgetown.edu/applying/first-year-application/",
+   "verified": true,
+   "notes": "Verbatim: \"All applicants are required to take the SAT or the ACT.\" Georgetown never adopted test-optional; scores must be sent from the testing agency. Waived only for applicants who finished high school 5+ years before matriculation."
+  },
+  {
+   "name": "Johns Hopkins University",
+   "policy": "required",
+   "source_url": "https://hub.jhu.edu/2024/08/16/undergrad-admissions-standardized-test-requirement/",
+   "verified": true,
+   "notes": "SAT (Math + EBRW) or ACT (Math, Reading, English) required beginning with applicants for fall 2026 entry, continuing for 2026-27. Admissions testing page (apply.jhu.edu/how-to-apply/application-deadlines-requirements/standardized-testing/) had a TLS certificate error at fetch time; verified via official JHU Hub announcement."
+  },
+  {
+   "name": "Duke University",
+   "policy": "optional",
+   "source_url": "https://admissions.duke.edu/apply/",
+   "verified": true,
+   "notes": "Duke states it is test-optional for first-year and transfer applicants in the 2026-2027 admissions cycle. Exception: ROTC scholarship applicants must submit scores."
+  },
+  {
+   "name": "University of Chicago",
+   "policy": "optional",
+   "source_url": "https://collegeadmissions.uchicago.edu/apply/application/required-materials/",
+   "verified": true,
+   "notes": "Test-optional under the UChicago Empower Initiative (since 2018); no announced end date. Confirmed via uchicago.edu admissions/news pages."
+  },
+  {
+   "name": "Northwestern University",
+   "policy": "optional",
+   "source_url": "https://admissions.northwestern.edu/faqs/standardized-testing-policy/",
+   "verified": true,
+   "notes": "Verbatim: Northwestern \"will not require ACT or SAT scores from first-year or transfer candidates.\" Page most recently referenced fall 2026 enrollment; no change announced for 2026-27."
+  },
+  {
+   "name": "Rice University",
+   "policy": "optional",
+   "source_url": "https://admission.rice.edu/frequently-asked-questions",
+   "verified": true,
+   "notes": "Rice 'recommends' but does not require SAT/ACT; applicants without scores receive full consideration."
+  },
+  {
+   "name": "Vanderbilt University",
+   "policy": "optional",
+   "source_url": "https://admissions.vanderbilt.edu/apply/testing-policies/",
+   "verified": true,
+   "notes": "Test-optional extended through fall 2027 entry (i.e., includes the 2026-27 cycle), per admissions.vanderbilt.edu/vandybloggers/2024/01/vanderbilt-extends-test-optional-policy-through-2027/."
+  },
+  {
+   "name": "University of Notre Dame",
+   "policy": "optional",
+   "source_url": "https://admissions.nd.edu/apply/faqs/",
+   "verified": true,
+   "notes": "Notre Dame states it is test-optional for all applicants through the 2026-27 school year; policy beyond that not announced."
+  },
+  {
+   "name": "UNC Chapel Hill",
+   "policy": "optional",
+   "source_url": "https://admissions.unc.edu/faqs/how-does-unc-look-at-act-or-sat-test-scores/",
+   "verified": true,
+   "notes": "UNC System policy (effective fall 2026, applies 2026-27 and beyond): weighted GPA 2.8+ = no test score required; below 2.8 = must submit ACT 17+ or SAT 930+. Effectively test-optional for most applicants, conditionally required below the GPA threshold."
+  },
+  {
+   "name": "University of Michigan",
+   "policy": "optional",
+   "source_url": "https://teamdynamix.umich.edu/TDClient/154/Portal/KB/ArticleDet?ID=7490",
+   "verified": true,
+   "notes": "Formally adopted test-optional (previously 'test-flexible' 2020-24). Only SAT/ACT considered if submitted; AP/IB no longer accepted in place of SAT/ACT. See also record.umich.edu/articles/u-m-formally-adopts-test-optional-admissions-policy/."
+  },
+  {
+   "name": "University of Virginia",
+   "policy": "optional",
+   "source_url": "https://admission.virginia.edu/node/446",
+   "verified": false,
+   "notes": "UVA's published policy confirms test-optional for the Fall 2026 entry cycle; an explicit statement covering the 2026-27 cycle (Fall 2027 entry) was not found as of 2026-07-06. Re-verify before shipping."
+  },
+  {
+   "name": "Georgia Tech",
+   "policy": "required",
+   "source_url": "https://admission.gatech.edu/first-year/standardized-tests",
+   "verified": true,
+   "notes": "SAT or ACT score required to complete an application; mandated by University System of Georgia Board of Regents (GT among the first USG schools to restore the requirement)."
+  },
+  {
+   "name": "University of Florida",
+   "policy": "required",
+   "source_url": "https://admissions.ufl.edu/apply/freshman/requirements",
+   "verified": true,
+   "notes": "Verbatim: \"All applicants must submit test scores from the SAT, ACT and/or CLT.\" Requirement mandated system-wide by Florida Board of Governors Regulation 6.002; ACT Science subscore no longer required."
+  },
+  {
+   "name": "University of Texas at Austin",
+   "policy": "required",
+   "source_url": "https://news.utexas.edu/2024/03/11/ut-austin-reinstates-standardized-test-scores-in-admissions/",
+   "verified": true,
+   "notes": "SAT/ACT requirement reinstated beginning with fall 2025 applications and continuing (see also admissions.utexas.edu/standardized-testing-policy-FAQ)."
+  },
+  {
+   "name": "University of Southern California",
+   "policy": "optional",
+   "source_url": "https://admission.usc.edu/test-optional-faq/",
+   "verified": true,
+   "notes": "USC states it will continue test-optional; SAT/ACT not required, considered if sent (official scores only, not self-reported). No end date announced."
+  },
+  {
+   "name": "New York University",
+   "policy": "optional",
+   "source_url": "https://www.nyu.edu/admissions/undergraduate-admissions/how-to-apply/standardized-tests.html",
+   "verified": true,
+   "notes": "NYU states it remains test-optional through the 2026-2027 application cycle. If submitting, NYU's test-flexible menu accepts SAT, ACT, IB, and various national exams."
+  },
+  {
+   "name": "Boston University",
+   "policy": "optional",
+   "source_url": "https://www.bu.edu/admissions/apply/first-year/test-policy/",
+   "verified": true,
+   "notes": "Verbatim: BU will \"remain test optional for students applying for admission through fall 2028 and spring 2029\" — covers the 2026-27 cycle, all schools and scholarship programs."
+  },
+  {
+   "name": "Northeastern University",
+   "policy": "optional",
+   "source_url": "https://admissions.northeastern.edu/application-information/required-materials/",
+   "verified": true,
+   "notes": "Test-optional; official FAQ states Northeastern will remain test-optional for the foreseeable future. English proficiency testing still required for non-native speakers."
+  },
+  {
+   "name": "Carnegie Mellon University",
+   "policy": "flexible",
+   "source_url": "https://www.cmu.edu/admission/admission/standardized-testing",
+   "verified": true,
+   "notes": "Varies by college: School of Computer Science requires SAT or ACT; College of Fine Arts remains test-optional; all other colleges are test-flexible (must submit scores, choosing among SAT, ACT, IB, AP, Cambridge A-Level, or French Baccalaureate). Page referenced fall 2026 terms at fetch time; re-verify fall 2027 wording."
+  }
+ ],
+ "systems": [
+  {
+   "name": "University of California",
+   "policy": "free",
+   "source_url": "https://admission.universityofcalifornia.edu/admission-requirements/first-year-requirements/",
+   "verified": true,
+   "notes": "Verbatim: \"UC will not consider SAT or ACT test scores when making admissions decisions or awarding scholarships.\" Permanent test-free/test-blind policy (Regents decision, Nov 2021); scores usable only for post-enrollment course placement or eligibility alternatives."
+  },
+  {
+   "name": "California State University",
+   "policy": "free",
+   "source_url": "https://www.calstate.edu/apply/freshman/getting_into_the_csu/pages/testing-requirements.aspx",
+   "verified": true,
+   "notes": "CSU no longer uses SAT/ACT in determining admission eligibility at any campus (Title 5 amended by Trustees, March 2022; permanent). Scores used only for math/English course placement after admission."
+  },
+  {
+   "name": "State University System of Florida",
+   "policy": "required",
+   "source_url": "https://admissions.ufl.edu/apply/freshman/requirements",
+   "verified": true,
+   "notes": "Florida Board of Governors Regulation 6.002 requires an SAT, ACT, or CLT score for first-time-in-college admission at all 12 SUS institutions (incl. UF, FSU). Florida publics never went test-optional."
+  },
+  {
+   "name": "University System of Georgia",
+   "policy": "required",
+   "source_url": "https://www.usg.edu/announcements/usg_to_extend_temporary_test_optional_admission_for_academic_year_2025_2026",
+   "verified": true,
+   "notes": "Board of Regents restored SAT/ACT requirements: UGA, Georgia Tech, and Georgia College already require scores; Augusta, Georgia State, Georgia Southern, and Kennesaw State require them beginning fall 2026. Minimum scores enforced at these seven institutions; some other USG schools remain test-optional."
+  },
+  {
+   "name": "University of Tennessee System",
+   "policy": "required",
+   "source_url": "https://admissions.utk.edu/undergraduate-application/test-score-policy/",
+   "verified": true,
+   "notes": "UT System campuses (incl. UT Knoxville) require first-year applicants to submit/self-report ACT or SAT scores; scores also drive Tennessee in-state guaranteed-admission thresholds (e.g., ACT 24+/SAT 1160+ at UTK)."
+  }
+ ]
+}

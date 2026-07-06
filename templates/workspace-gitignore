@@ -1,0 +1,19 @@
+# ============================================================
+#  This folder contains a minor's personal information.
+#  Keep it LOCAL. If you use git, use it for local history only
+#  or push to a PRIVATE remote you control. Never make it public.
+# ============================================================
+
+# Plugin internals: caches, backups, computed files
+.admissions/cache/
+.admissions/backups/
+
+# Financial documents are the most sensitive files here
+aid/award-letters/
+
+# Uncomment to keep the student profile out of git history entirely:
+# profile.json
+
+# OS noise
+.DS_Store
+Thumbs.db

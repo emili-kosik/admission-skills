@@ -1,0 +1,67 @@
+{
+  "_meta": {
+    "cycle": "2026-27",
+    "last_verified": "2026-07-06",
+    "notes": "Primary-source URL registry. Skills cite these instead of memory. If a URL is dead, WebSearch the entity name + topic and prefer the same domain."
+  },
+  "sources": {
+    "common_app": {
+      "essay_prompts": "https://www.commonapp.org/apply/essay-prompts",
+      "fraud_policy": "https://www.commonapp.org/fraud-policy",
+      "requirements_grid_pdf": "https://content.commonapp.org/Files/ReqGrid.pdf",
+      "requirements_grid_mirror": "https://apply.commonapp.org/ApplicationRequirements/PublicFile?fn=ReqGrid.pdf",
+      "first_year_help": "https://www.commonapp.org/apply/first-year-students"
+    },
+    "college_board": {
+      "sat_dates": "https://satsuite.collegeboard.org/sat/dates-deadlines",
+      "psat_dates": "https://satsuite.collegeboard.org/psat-nmsqt",
+      "ap_calendar": "https://apstudents.collegeboard.org/exam-calendar",
+      "css_profile": "https://cssprofile.collegeboard.org",
+      "idoc": "https://cssprofile.collegeboard.org/idoc",
+      "bigfuture": "https://bigfuture.collegeboard.org/plan-for-college",
+      "sat_practice": "https://satsuite.collegeboard.org/sat/practice-preparation"
+    },
+    "act": {
+      "test_dates": "https://www.act.org/content/act/en/products-and-services/the-act/registration.html"
+    },
+    "federal": {
+      "fafsa_deadlines": "https://studentaid.gov/apply-for-aid/fafsa/fafsa-deadlines",
+      "fafsa": "https://studentaid.gov/h/apply-for-aid/fafsa",
+      "scorecard_api": "https://api.data.gov/ed/collegescorecard/v1/schools",
+      "scorecard_api_docs": "https://collegescorecard.ed.gov/data/api-documentation/",
+      "scorecard_signup": "https://api.data.gov/signup",
+      "urban_education_data_api": "https://educationdata.urban.org/api/v1/",
+      "net_price_calculator_center": "https://collegecost.ed.gov/net-price",
+      "careeronestop_api": "https://api.careeronestop.org/api-explorer/",
+      "careeronestop_registration": "https://www.careeronestop.org/Developers/WebAPI/registration.aspx",
+      "college_navigator": "https://nces.ed.gov/collegenavigator/"
+    },
+    "uc": {
+      "how_to_apply": "https://admission.universityofcalifornia.edu/how-to-apply/",
+      "piq_page": "https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-freshman/personal-insight-questions.html",
+      "piq_guide_pdf": "https://admission.universityofcalifornia.edu/how-to-apply/files/uc-personal-questions-guide-freshman.pdf"
+    },
+    "csu": {
+      "apply": "https://www.calstate.edu/apply"
+    },
+    "texas": {
+      "applytexas": "https://goapplytexas.org"
+    },
+    "testing_policy": {
+      "fairtest_list": "https://fairtest.org/test-optional-list/",
+      "compass_tracker": "https://www.compassprep.com/testing-spotlight/"
+    },
+    "international": {
+      "student_visa": "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html",
+      "sevis_fee": "https://www.fmjfee.com",
+      "toefl": "https://www.ets.org/toefl",
+      "ielts": "https://ielts.org",
+      "duolingo": "https://englishtest.duolingo.com",
+      "wes": "https://www.wes.org"
+    },
+    "cds": {
+      "definitions": "https://commondataset.org/",
+      "link_index": "https://github.com/AlexiaAdams/cds-archive"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "_comment": "Hand-maintained entries for application systems NOT covered by the Common App Requirements Grid. annual_rules use MM-DD month/day anchors that repeat every cycle; skills resolve them against the workspace cycle year. Anything uncertain is a note with a verify URL, never an invented date.",
+  "colleges": [
+    {
+      "name": "University of California (all campuses)",
+      "system": "uc",
+      "deadlines": {},
+      "annual_rules": { "filing_open": "10-01", "filing_close": "11-30" },
+      "test_policy": "free",
+      "personal_essay": false,
+      "essays": "uc_piq",
+      "recs": { "teacher_evals": 0, "other_evals": 0, "midyear_report": false, "counselor_rec": false },
+      "notes": "One application covers all 9 UC campuses. Firm annual filing window Oct 1 - Nov 30 (occasionally extended a few days — never plan on it). No letters of recommendation for most applicants. 4 Personal Insight Questions (350 words each) from 8. Test-free: SAT/ACT never considered. Verify: https://admission.universityofcalifornia.edu/how-to-apply/"
+    },
+    { "name": "UC Berkeley", "system": "uc", "alias_of": "University of California (all campuses)" },
+    { "name": "UCLA", "system": "uc", "alias_of": "University of California (all campuses)" },
+    { "name": "UC San Diego", "system": "uc", "alias_of": "University of California (all campuses)" },
+    { "name": "UC Davis", "system": "uc", "alias_of": "University of California (all campuses)" },
+    { "name": "UC Irvine", "system": "uc", "alias_of": "University of California (all campuses)" },
+    { "name": "UC Santa Barbara", "system": "uc", "alias_of": "University of California (all campuses)" },
+    { "name": "UC Santa Cruz", "system": "uc", "alias_of": "University of California (all campuses)" },
+    { "name": "UC Riverside", "system": "uc", "alias_of": "University of California (all campuses)" },
+    { "name": "UC Merced", "system": "uc", "alias_of": "University of California (all campuses)" },
+    {
+      "name": "California State University (all campuses)",
+      "system": "csu",
+      "deadlines": {},
+      "annual_rules": { "filing_open": "10-01" },
+      "test_policy": "free",
+      "personal_essay": false,
+      "recs": { "teacher_evals": 0, "other_evals": 0, "midyear_report": false, "counselor_rec": false },
+      "notes": "Apply via Cal State Apply. Priority filing typically opens Oct 1 and closes in early December — deadlines vary by campus and program. Test-free. Verify: https://www.calstate.edu/apply"
+    },
+    {
+      "name": "Massachusetts Institute of Technology",
+      "system": "institutional",
+      "deadlines": {},
+      "annual_rules": { "EA": "11-01" },
+      "test_policy": "required",
+      "notes": "MIT uses its own application (not Common App). EA deadline Nov 1; RD is typically early January — verify at https://mitadmissions.org/apply/firstyear/deadlines-requirements/. SAT/ACT required."
+    },
+    {
+      "name": "Georgetown University",
+      "system": "institutional",
+      "deadlines": {},
+      "annual_rules": { "REA": "11-01" },
+      "test_policy": "required",
+      "notes": "Georgetown uses its own application. Restrictive EA typically Nov 1; RD typically mid-January — verify at https://uadmissions.georgetown.edu/applying/. SAT/ACT required."
+    },
+    {
+      "name": "ApplyTexas (Texas public universities)",
+      "system": "applytexas",
+      "deadlines": {},
+      "annual_rules": {},
+      "notes": "Texas public universities apply via ApplyTexas (goapplytexas.org). Priority deadlines vary by campus (UT Austin priority is typically Dec 1) — verify per campus. Top-10% automatic-admission rules apply to Texas residents."
+    }
+  ]
+}

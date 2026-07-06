@@ -1,0 +1,368 @@
+{
+  "_meta": {
+    "cycle": "2026-27",
+    "last_verified": "2026-07-06",
+    "source": "Primary sources: commonapp.org, studentaid.gov, cssprofile.collegeboard.org, satsuite.collegeboard.org, act.org, apstudents.collegeboard.org, admission.universityofcalifornia.edu, travel.state.gov. Grade 9-11 practice rows synthesize BigFuture (bigfuture.collegeboard.org) checklist conventions.",
+    "notes": "Rules, not constants: fixed_annual rows survive year rollover; pattern rows must be phrased as 'typically' and cross-checked against data/test_dates.json; college_specific rows resolve from the workspace colleges.json. Year math: grade g month m falls in calendar year grad_year-13+g when m>=8, else grad_year-12+g.",
+    "date_type_legend": {
+      "fixed_annual": "same calendar date every year — state plainly",
+      "pattern": "recurring convention — phrase as 'typically', link verify URL",
+      "window": "a date range",
+      "college_specific": "resolve from colleges.json; always add verify caveat",
+      "relative": "offset from another event or student action"
+    }
+  },
+  "milestones": [
+    {
+      "id": "g9-fall-rigor",
+      "title": "Settle into the hardest appropriate course load; join 2-4 activities",
+      "grade": 9, "month": 9, "date_type": "window",
+      "date_rule": { "start": { "month": 9, "day": 1 }, "end": { "month": 12, "day": 15 } },
+      "tracks": ["all"], "priority": "normal", "audience": ["parent", "student"],
+      "verification": "pattern",
+      "action": "Freshman year is about habits, not colleges: strong grades in the most rigorous appropriate courses, and exploring a few activities with an eye toward depth later. Nothing this year is fatal.",
+      "source_url": "https://bigfuture.collegeboard.org/plan-for-college"
+    },
+    {
+      "id": "g9-spring-arc",
+      "title": "Plan the 4-year course rigor arc with the counselor; lock a meaningful summer",
+      "grade": 9, "month": 3, "date_type": "window",
+      "date_rule": { "start": { "month": 2, "day": 1 }, "end": { "month": 5, "day": 15 } },
+      "tracks": ["all"], "priority": "normal", "audience": ["parent", "student"],
+      "verification": "pattern",
+      "action": "Map honors → AP/IB progression for grades 10-12 during course selection. Plan a summer with substance: a program, a job, or a self-driven project.",
+      "source_url": "https://bigfuture.collegeboard.org/plan-for-college"
+    },
+    {
+      "id": "g10-fall-psat10",
+      "title": "PSAT 10 / practice PSAT sitting (register through school)",
+      "grade": 10, "month": 10, "date_type": "window",
+      "date_rule": { "start": { "month": 10, "day": 1 }, "end": { "month": 10, "day": 31 } },
+      "tracks": ["all", "test_taker"], "priority": "normal", "audience": ["student"],
+      "verification": "verified",
+      "action": "A no-stakes diagnostic. Registration happens through the school, not College Board.",
+      "source_url": "https://satsuite.collegeboard.org/psat-nmsqt"
+    },
+    {
+      "id": "g10-spring-diagnostic",
+      "title": "Take one official SAT practice test and one ACT practice test; compare",
+      "grade": 10, "month": 4, "date_type": "window",
+      "date_rule": { "start": { "month": 3, "day": 1 }, "end": { "month": 5, "day": 31 } },
+      "tracks": ["all", "test_taker"], "priority": "normal", "audience": ["student"],
+      "verification": "pattern",
+      "action": "Compare percentiles (not raw comfort) and commit to one test. Free official SAT prep lives on Khan Academy. Also: informal campus visits when travel allows, and plan the summer.",
+      "source_url": "https://satsuite.collegeboard.org/sat/practice-preparation"
+    },
+    {
+      "id": "g11-oct-psat-nmsqt",
+      "title": "PSAT/NMSQT — the National Merit qualifier",
+      "grade": 11, "month": 10, "date_type": "window",
+      "date_rule": { "start": { "month": 10, "day": 1 }, "end": { "month": 10, "day": 31 } },
+      "tracks": ["all", "test_taker"], "priority": "high", "audience": ["student"],
+      "verification": "verified",
+      "action": "The junior-year sitting is the one that counts for National Merit. Register through school in September.",
+      "source_url": "https://satsuite.collegeboard.org/psat-nmsqt"
+    },
+    {
+      "id": "g11-winter-prep",
+      "title": "Begin SAT/ACT prep; build the initial college list",
+      "grade": 11, "month": 12, "date_type": "window",
+      "date_rule": { "start": { "month": 12, "day": 1 }, "end": { "month": 2, "day": 28 } },
+      "tracks": ["all", "test_taker"], "priority": "high", "audience": ["parent", "student"],
+      "verification": "pattern",
+      "action": "8-12 weeks of steady prep before the first spring sitting beats cramming. Start a first reach/match/safety list (/admit:college-list) — it will change, that's fine.",
+      "source_url": "https://satsuite.collegeboard.org/sat/practice-preparation"
+    },
+    {
+      "id": "g11-feb-prompts",
+      "title": "Common App essay prompts announced (typically late February)",
+      "grade": 11, "month": 2, "date_type": "pattern",
+      "date_rule": { "description": "typically late February" },
+      "tracks": ["common_app"], "priority": "normal", "audience": ["student"],
+      "verification": "pattern",
+      "action": "Prompts for the coming cycle are announced — safe to start thinking about material, no need to draft yet.",
+      "source_url": "https://www.commonapp.org/apply/essay-prompts"
+    },
+    {
+      "id": "g11-spring-first-test",
+      "title": "First official SAT or ACT sitting",
+      "grade": 11, "month": 3, "date_type": "pattern",
+      "date_rule": { "description": "SAT: typically March/May/June Saturdays; ACT: February/April/June", "dataset": "test_dates.json", "months": [2, 3, 4, 5, 6] },
+      "tracks": ["test_taker"], "priority": "high", "audience": ["student"],
+      "verification": "verified",
+      "action": "Sit the chosen test in spring of junior year, leaving room for one retake in early fall. Registration closes roughly 2 weeks ahead (SAT) / 5 weeks ahead (ACT).",
+      "source_url": "https://satsuite.collegeboard.org/sat/dates-deadlines"
+    },
+    {
+      "id": "g11-may-ap",
+      "title": "AP exams (first two full weeks of May)",
+      "grade": 11, "month": 5, "date_type": "window",
+      "date_rule": { "start": { "month": 5, "day": 1 }, "end": { "month": 5, "day": 16 } },
+      "tracks": ["ap_student"], "priority": "high", "audience": ["student"],
+      "verification": "verified",
+      "action": "AP exams run the first two full weeks of May. Scores arrive early July.",
+      "source_url": "https://apstudents.collegeboard.org/exam-calendar"
+    },
+    {
+      "id": "g11-spring-recs",
+      "title": "Ask 2 junior-year teachers for recommendations before summer",
+      "grade": 11, "month": 4, "date_type": "window",
+      "date_rule": { "start": { "month": 4, "day": 1 }, "end": { "month": 6, "day": 15 } },
+      "tracks": ["common_app"], "priority": "high", "audience": ["student"],
+      "verification": "pattern",
+      "action": "Ask in person, in spring, while you're fresh in the teacher's mind — then provide a brag sheet. Not needed for a UC-only list.",
+      "source_url": "https://www.commonapp.org/apply/first-year-students"
+    },
+    {
+      "id": "g11-spring-counselor",
+      "title": "Counselor meeting: transcript check, rigor narrative, senior schedule",
+      "grade": 11, "month": 4, "date_type": "window",
+      "date_rule": { "start": { "month": 4, "day": 1 }, "end": { "month": 6, "day": 15 } },
+      "tracks": ["all"], "priority": "high", "audience": ["parent", "student"],
+      "verification": "pattern",
+      "action": "Verify the transcript, confirm senior-year rigor, and discuss the college list. Ask how your school handles transcript and school-report requests.",
+      "source_url": null
+    },
+    {
+      "id": "g11-spring-npc",
+      "title": "Run 3 Net Price Calculators and have the budget conversation",
+      "grade": 11, "month": 4, "date_type": "window",
+      "date_rule": { "start": { "month": 3, "day": 1 }, "end": { "month": 6, "day": 15 } },
+      "tracks": ["all", "aid_seeker"], "priority": "high", "audience": ["parent"],
+      "verification": "pattern",
+      "action": "Before the list is final: run the Net Price Calculator at three candidate colleges and agree on a real budget. This conversation in junior spring prevents heartbreak in April of senior year.",
+      "source_url": "https://collegecost.ed.gov/net-price"
+    },
+    {
+      "id": "g11-summer-essay",
+      "title": "Draft the personal essay; finalize the college list",
+      "grade": 11, "month": 7, "date_type": "window",
+      "date_rule": { "start": { "month": 6, "day": 15 }, "end": { "month": 8, "day": 15 } },
+      "tracks": ["all"], "priority": "critical", "audience": ["student"],
+      "verification": "pattern",
+      "action": "The single highest-leverage summer task: a real draft of the personal essay (prompts have been out since February) and a settled list. AP scores arrive early July; plan any fall retake now.",
+      "source_url": "https://www.commonapp.org/apply/essay-prompts"
+    },
+    {
+      "id": "ca-open",
+      "title": "Common App opens / refreshes for the new cycle",
+      "grade": 12, "month": 8, "date_type": "fixed_annual",
+      "date_rule": { "month": 8, "day": 1 },
+      "tracks": ["common_app"], "priority": "critical", "audience": ["student"],
+      "verification": "verified",
+      "action": "Create or roll over the account (the Common App tab and personal essay survive the annual refresh). Enter activities, add colleges, check each college's supplement list.",
+      "source_url": "https://www.commonapp.org"
+    },
+    {
+      "id": "uc-open",
+      "title": "UC application opens (filing window comes later)",
+      "grade": 12, "month": 8, "date_type": "fixed_annual",
+      "date_rule": { "month": 8, "day": 1 },
+      "tracks": ["uc"], "priority": "high", "audience": ["student"],
+      "verification": "verified",
+      "action": "Start the UC application: activities, PIQ planning. You can work in it from Aug 1 even though filing opens Oct 1.",
+      "source_url": "https://admission.universityofcalifornia.edu/how-to-apply/"
+    },
+    {
+      "id": "g12-sep-logistics",
+      "title": "Request transcripts; confirm recommenders with brag sheets",
+      "grade": 12, "month": 9, "date_type": "window",
+      "date_rule": { "start": { "month": 9, "day": 1 }, "end": { "month": 9, "day": 30 } },
+      "tracks": ["common_app"], "priority": "critical", "audience": ["student"],
+      "verification": "pattern",
+      "action": "Give recommenders your resume/brag sheet and your deadline list. Request transcripts per your school's process. Two weeks of buffer beats an October scramble.",
+      "source_url": null
+    },
+    {
+      "id": "fafsa-open",
+      "title": "FAFSA opens",
+      "grade": 12, "month": 10, "date_type": "fixed_annual",
+      "date_rule": { "month": 10, "day": 1 },
+      "tracks": ["all", "aid_seeker"], "priority": "critical", "audience": ["parent"],
+      "verification": "verified",
+      "action": "File within the first weeks — state and college priority deadlines can be as early as December. Create FSA IDs (student + one parent contributor) a week before you file.",
+      "source_url": "https://studentaid.gov/apply-for-aid/fafsa/fafsa-deadlines",
+      "verify_note": "State priority deadlines vary — always check the studentaid.gov deadline page for your state."
+    },
+    {
+      "id": "css-open",
+      "title": "CSS Profile opens (colleges that use it for their own aid)",
+      "grade": 12, "month": 10, "date_type": "fixed_annual",
+      "date_rule": { "month": 10, "day": 1 },
+      "tracks": ["aid_seeker"], "priority": "high", "audience": ["parent"],
+      "verification": "verified",
+      "action": "Check which of your colleges require the CSS Profile and their priority dates. Fee waivers apply below the income threshold — verify current terms on the Profile site.",
+      "source_url": "https://cssprofile.collegeboard.org"
+    },
+    {
+      "id": "uc-filing-open",
+      "title": "UC filing window opens (Oct 1 - Nov 30, firm)",
+      "grade": 12, "month": 10, "date_type": "fixed_annual",
+      "date_rule": { "month": 10, "day": 1 },
+      "tracks": ["uc"], "priority": "critical", "audience": ["student"],
+      "verification": "verified",
+      "action": "The UC window is Oct 1 - Nov 30 and lands a full month before most RD deadlines — Californians' fall calendar is front-loaded. Don't plan on the occasional few-day extension.",
+      "source_url": "https://admission.universityofcalifornia.edu/how-to-apply/"
+    },
+    {
+      "id": "g12-oct-last-comfortable-sat",
+      "title": "October SAT/ACT — last comfortable sitting for Nov 1 deadlines",
+      "grade": 12, "month": 10, "date_type": "pattern",
+      "date_rule": { "description": "typically the first Saturday of October (SAT)", "dataset": "test_dates.json" },
+      "tracks": ["test_taker"], "priority": "high", "audience": ["student"],
+      "verification": "verified",
+      "action": "Scores from October sittings generally reach ED/EA colleges in time; later is a gamble. Registration closes ~2 weeks ahead (SAT) / ~5 weeks (ACT).",
+      "source_url": "https://satsuite.collegeboard.org/sat/dates-deadlines"
+    },
+    {
+      "id": "ed-ea-deadlines",
+      "title": "ED / EA / REA applications due (most colleges Nov 1)",
+      "grade": 12, "month": 11, "date_type": "college_specific",
+      "date_rule": { "source": "colleges.json", "typical": { "month": 11, "day": 1 } },
+      "tracks": ["common_app"], "priority": "critical", "audience": ["student"],
+      "verification": "college_specific",
+      "action": "Most early deadlines are Nov 1; some are Nov 15 or Dec 1. ED is binding — the family financial conversation must already have happened. Verify every date on the college's page.",
+      "source_url": null
+    },
+    {
+      "id": "uc-filing-deadline",
+      "title": "UC filing deadline (Nov 30, firm)",
+      "grade": 12, "month": 11, "date_type": "fixed_annual",
+      "date_rule": { "month": 11, "day": 30 },
+      "tracks": ["uc"], "priority": "critical", "audience": ["student"],
+      "verification": "verified",
+      "action": "All four PIQs and the full application must be submitted. Occasional extensions happen; never plan on one.",
+      "source_url": "https://admission.universityofcalifornia.edu/how-to-apply/"
+    },
+    {
+      "id": "csu-filing-deadline",
+      "title": "CSU priority filing closes (typically early December)",
+      "grade": 12, "month": 12, "date_type": "pattern",
+      "date_rule": { "description": "typically early December — varies by campus and program" },
+      "tracks": ["csu"], "priority": "critical", "audience": ["student"],
+      "verification": "pattern",
+      "action": "Cal State Apply priority window typically runs Oct 1 to early December. Impacted campuses/programs close hard — verify per campus.",
+      "source_url": "https://www.calstate.edu/apply"
+    },
+    {
+      "id": "g12-dec-last-rd-test",
+      "title": "December SAT/ACT — last sitting most RD colleges accept",
+      "grade": 12, "month": 12, "date_type": "pattern",
+      "date_rule": { "description": "typically the first Saturday of December (SAT)", "dataset": "test_dates.json" },
+      "tracks": ["test_taker"], "priority": "high", "audience": ["student"],
+      "verification": "verified",
+      "action": "The December sitting is the practical end of the testing road for January deadlines.",
+      "source_url": "https://satsuite.collegeboard.org/sat/dates-deadlines"
+    },
+    {
+      "id": "ed-decisions",
+      "title": "ED decisions arrive (typically mid-December)",
+      "grade": 12, "month": 12, "date_type": "pattern",
+      "date_rule": { "description": "typically mid-December" },
+      "tracks": ["common_app"], "priority": "high", "audience": ["parent", "student"],
+      "verification": "pattern",
+      "action": "Whatever the ED result, keep finishing RD applications over winter break — deferral and denial both need a live RD slate. Accepted ED = withdraw other applications.",
+      "source_url": null
+    },
+    {
+      "id": "rd-deadlines",
+      "title": "RD and ED2 applications due (cluster Jan 1-15)",
+      "grade": 12, "month": 1, "date_type": "college_specific",
+      "date_rule": { "source": "colleges.json", "typical": { "month": 1, "day": 1 } },
+      "tracks": ["common_app"], "priority": "critical", "audience": ["student"],
+      "verification": "college_specific",
+      "action": "RD deadlines cluster Jan 1-15. Mid-year reports go out via the counselor. State FAFSA priority deadlines begin landing — check your state.",
+      "source_url": null
+    },
+    {
+      "id": "g12-feb-idoc",
+      "title": "IDOC / verification uploads if requested (deadlines are midnight ET)",
+      "grade": 12, "month": 2, "date_type": "relative",
+      "date_rule": { "description": "only after College Board emails an IDOC request post-CSS-submission" },
+      "tracks": ["aid_seeker"], "priority": "high", "audience": ["parent"],
+      "verification": "verified",
+      "action": "If a college uses IDOC, College Board emails you after the CSS Profile is submitted. Upload tax documents promptly; IDOC deadlines are midnight Eastern.",
+      "source_url": "https://cssprofile.collegeboard.org/idoc"
+    },
+    {
+      "id": "rd-decisions",
+      "title": "RD decisions arrive (mid-March to early April)",
+      "grade": 12, "month": 3, "date_type": "pattern",
+      "date_rule": { "description": "typically mid-March through early April; Ivies release together in late March" },
+      "tracks": ["all"], "priority": "high", "audience": ["parent", "student"],
+      "verification": "pattern",
+      "action": "As decisions and aid offers arrive: drop award letters into aid/award-letters/ and compare offers line by line (/admit:aid) — 4-year cost, not year-1 sticker.",
+      "source_url": null
+    },
+    {
+      "id": "decision-day",
+      "title": "National reply date — deposit at exactly one college",
+      "grade": 12, "month": 5, "date_type": "fixed_annual",
+      "date_rule": { "month": 5, "day": 1 },
+      "tracks": ["all"], "priority": "critical", "audience": ["parent", "student"],
+      "verification": "verified",
+      "action": "Deposit at one college by May 1 (double-depositing violates policy). Waitlist movement runs May-July — deposit somewhere regardless.",
+      "source_url": null
+    },
+    {
+      "id": "g12-may-ap",
+      "title": "AP exams (first two full weeks of May)",
+      "grade": 12, "month": 5, "date_type": "window",
+      "date_rule": { "start": { "month": 5, "day": 1 }, "end": { "month": 5, "day": 16 } },
+      "tracks": ["ap_student"], "priority": "high", "audience": ["student"],
+      "verification": "verified",
+      "action": "Offers are conditional on finishing strong. Send AP scores officially to the enrolling college in July.",
+      "source_url": "https://apstudents.collegeboard.org/exam-calendar"
+    },
+    {
+      "id": "g12-jun-final-transcript",
+      "title": "Final transcript to the enrolling college",
+      "grade": 12, "month": 6, "date_type": "window",
+      "date_rule": { "start": { "month": 5, "day": 15 }, "end": { "month": 6, "day": 30 } },
+      "tracks": ["all"], "priority": "high", "audience": ["student"],
+      "verification": "pattern",
+      "action": "Ask the counselor to send the final transcript after graduation; the enrolling college requires it.",
+      "source_url": null
+    },
+    {
+      "id": "int-english-test",
+      "title": "English proficiency test (TOEFL/IELTS/Duolingo) — test by Sep-Oct for Nov deadlines",
+      "grade": 12, "month": 9, "date_type": "relative",
+      "date_rule": { "description": "test by Sep-Oct for Nov 1 deadlines; by Oct-Nov for January deadlines — colleges need delivery time" },
+      "tracks": ["international"], "priority": "critical", "audience": ["student"],
+      "verification": "verified",
+      "action": "TOEFL scores post in roughly 4-8 days; IELTS and Duolingo vary — build in delivery time. Check each college's minimum scores and waiver rules (e.g., English-medium schooling).",
+      "source_url": "https://www.ets.org/toefl"
+    },
+    {
+      "id": "int-credential-eval",
+      "title": "Credential evaluation for non-US transcripts (order 4-8 weeks before first deadline)",
+      "grade": 12, "month": 9, "date_type": "relative",
+      "date_rule": { "description": "order 4-8 weeks before the earliest application deadline, if a college requires it" },
+      "tracks": ["international"], "priority": "high", "audience": ["parent"],
+      "verification": "pattern",
+      "action": "Some colleges require a course-by-course evaluation (WES, ECE) for non-US transcripts; many evaluate in-house. Check each college first — evaluations take weeks and cost money.",
+      "source_url": "https://www.wes.org"
+    },
+    {
+      "id": "int-financial-docs",
+      "title": "Prepare financial documentation (certification of finances, bank statements)",
+      "grade": 12, "month": 10, "date_type": "relative",
+      "date_rule": { "description": "at application or at admission, per college — the same documents later support the I-20" },
+      "tracks": ["international"], "priority": "high", "audience": ["parent"],
+      "verification": "verified",
+      "action": "Most US colleges are need-aware for international applicants. Prepare proof of funding early; it's required for the I-20 after enrollment anyway.",
+      "source_url": "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html"
+    },
+    {
+      "id": "int-i20-chain",
+      "title": "I-20 → SEVIS fee → DS-160 → visa interview (start immediately after depositing)",
+      "grade": 12, "month": 5, "date_type": "relative",
+      "date_rule": { "description": "immediately after the enrollment deposit" },
+      "tracks": ["international"], "priority": "critical", "audience": ["parent", "student"],
+      "verification": "verified",
+      "action": "Request the I-20 from the college right after depositing → pay the SEVIS I-901 fee → file DS-160 → book the embassy interview early (wait times vary widely by post). F-1 can be issued up to 365 days before the program start; US entry is allowed within 30 days of the start date.",
+      "source_url": "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html"
+    }
+  ]
+}

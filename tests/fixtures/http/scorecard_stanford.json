@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "page": 0,
+    "total": 1,
+    "per_page": 50
+  },
+  "results": [
+    {
+      "latest.student.size": 7554,
+      "latest.admissions.admission_rate.overall": 0.0361,
+      "latest.admissions.sat_scores.25th_percentile.critical_reading": 740,
+      "latest.admissions.sat_scores.75th_percentile.critical_reading": 780,
+      "latest.admissions.sat_scores.25th_percentile.math": 770,
+      "latest.admissions.sat_scores.75th_percentile.math": 800,
+      "latest.admissions.act_scores.25th_percentile.cumulative": 34,
+      "latest.admissions.act_scores.75th_percentile.cumulative": 35,
+      "latest.cost.avg_net_price.public": null,
+      "latest.cost.avg_net_price.private": 13807,
+      "latest.cost.net_price.public.by_income_level.48001-75000": null,
+      "latest.cost.net_price.private.by_income_level.48001-75000": 3212,
+      "latest.cost.net_price.public.by_income_level.75001-110000": null,
+      "latest.cost.net_price.private.by_income_level.75001-110000": 11092,
+      "latest.cost.tuition.in_state": 65910,
+      "latest.cost.tuition.out_of_state": 65910,
+      "latest.completion.consumer_rate": 0.9695,
+      "latest.earnings.10_yrs_after_entry.median": 124080,
+      "school.name": "Stanford University",
+      "school.state": "CA",
+      "school.city": "Stanford",
+      "school.school_url": "www.stanford.edu/",
+      "school.price_calculator_url": "financialaid.stanford.edu/undergrad/how/calculator/index.html?tab=net-price-calculator",
+      "school.ownership": 2,
+      "id": 243744
+    }
+  ]
+}

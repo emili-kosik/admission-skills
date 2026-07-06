@@ -1,0 +1,90 @@
+{
+ "_meta": {
+  "cycle": "2026-27",
+  "built_at": "2026-07-06",
+  "last_verified": "2026-07-06",
+  "source": "commonapp.org/apply/essay-prompts + admission.universityofcalifornia.edu (fetched and quoted verbatim; see per-section notes)"
+ },
+ "common_app": {
+  "cycle": "2026-27",
+  "word_limit_min": 250,
+  "word_limit_max": 650,
+  "source_url": "https://www.commonapp.org/apply/essay-prompts",
+  "verified": true,
+  "notes": "Page renders client-side; prompt text extracted verbatim from the page's own Gatsby data file (https://www.commonapp.org/page-data/apply/essay-prompts/page-data.json), which contains the heading 'Here is the full set of essay prompts for 2026–2027'. Cross-confirmed by the official announcement (https://www.commonapp.org/blog/announcing-2026-2027-common-app-essay-prompts/, Feb 27, 2026): prompts unchanged from 2025-26. The 250-min/650-max word limits are enforced in the application platform but are NOT stated on the cited page; they were confirmed only via reputable secondary sources (collegeessayguy.com, prepscholar.com, collegewise.com).",
+  "prompts": [
+   {
+    "id": "ca-1",
+    "text": "Some students have a background, identity, interest, or talent that is so meaningful they believe their application would be incomplete without it. If this sounds like you, then please share your story."
+   },
+   {
+    "id": "ca-2",
+    "text": "The lessons we take from obstacles we encounter can be fundamental to later success. Recount a time when you faced a challenge, setback, or failure. How did it affect you, and what did you learn from the experience?"
+   },
+   {
+    "id": "ca-3",
+    "text": "Reflect on a time when you questioned or challenged a belief or idea. What prompted your thinking? What was the outcome?"
+   },
+   {
+    "id": "ca-4",
+    "text": "Reflect on something that someone has done for you that has made you happy or thankful in a surprising way. How has this gratitude affected or motivated you?"
+   },
+   {
+    "id": "ca-5",
+    "text": "Discuss an accomplishment, event, or realization that sparked a period of personal growth and a new understanding of yourself or others."
+   },
+   {
+    "id": "ca-6",
+    "text": "Describe a topic, idea, or concept you find so engaging that it makes you lose all track of time. Why does it captivate you? What or who do you turn to when you want to learn more?"
+   },
+   {
+    "id": "ca-7",
+    "text": "Share an essay on any topic of your choice. It can be one you've already written, one that responds to a different prompt, or one of your own design."
+   }
+  ]
+ },
+ "common_app_challenges_question": {
+  "exists": true,
+  "text": "Sometimes a student's application and achievements may be impacted by challenges or other circumstances. This could involve: Access to a safe and quiet study space; Access to reliable technology and internet; Community disruption (violence, protests, teacher strikes, etc.); Discrimination; Family disruptions (divorce, incarceration, job loss, health, loss of a family member, addiction, etc.); Family or other obligations (care-taking, financial support, etc.); Housing instability, displacement, or homelessness; Military deployment or activation; Natural disasters; Physical health and mental well-being; War, conflict, or other hardships. If you're comfortable sharing, this information can help colleges better understand the context of your application. Colleges may use this information to provide you and your fellow students with support and resources. [If yes:] Please describe the challenges or circumstances and how they have impacted you. (250 words)",
+  "notes": "The optional Challenges and Circumstances question in the Writing section, introduced in 2025-26 (replacing the COVID/community-disruption question). Exact in-app wording is behind the applicant login and could NOT be verified against a public commonapp.org page; text above is reconstructed from reputable secondary sources quoting the application (expertadmissions.com/common-app-challenges-and-circumstances-question/, koppelmangroup.com, collegetransitions.com). Response limit 250 words. Treat wording as approximate-verbatim (verified: false at the primary-source level)."
+ },
+ "uc_piq": {
+  "instructions": "You will have 8 questions to choose from. You must respond to only 4 of the 8 questions. Each response is limited to a maximum of 350 words.",
+  "source_url": "https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-freshman/personal-insight-questions.html",
+  "verified": true,
+  "prompts": [
+   {
+    "id": "piq-1",
+    "text": "Describe an example of your leadership experience in which you have positively influenced others, helped resolve disputes or contributed to group efforts over time."
+   },
+   {
+    "id": "piq-2",
+    "text": "Every person has a creative side, and it can be expressed in many ways: problem solving, original and innovative thinking, and artistically, to name a few. Describe how you express your creative side."
+   },
+   {
+    "id": "piq-3",
+    "text": "What would you say is your greatest talent or skill? How have you developed and demonstrated that talent over time?"
+   },
+   {
+    "id": "piq-4",
+    "text": "Describe how you have taken advantage of a significant educational opportunity or worked to overcome an educational barrier you have faced."
+   },
+   {
+    "id": "piq-5",
+    "text": "Describe the most significant challenge you have faced and the steps you have taken to overcome this challenge. How has this challenge affected your academic achievement?"
+   },
+   {
+    "id": "piq-6",
+    "text": "Think about an academic subject that inspires you. Describe how you have furthered this interest inside and/or outside of the classroom."
+   },
+   {
+    "id": "piq-7",
+    "text": "What have you done to make your school or your community a better place?"
+   },
+   {
+    "id": "piq-8",
+    "text": "Beyond what has already been shared in your application, what do you believe makes you a strong candidate for admissions to the University of California?"
+   }
+  ]
+ }
+}

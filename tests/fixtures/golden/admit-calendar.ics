@@ -1,0 +1,44 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//admission-skills//admit 1.0//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:College Admissions (admit)
+BEGIN:VEVENT
+UID:fafsa-open-3e5383eee2@admission-skills
+DTSTAMP:20260901T000000Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:FAFSA opens
+DESCRIPTION:File within the first weeks\; state priority deadlines can be e
+ arly. Verify: https://studentaid.gov/apply-for-aid/fafsa/fafsa-deadlines
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FAFSA opens (1 week away)
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:FAFSA opens (1 day away)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:college-university-of-michigan-ea-5cfa7c8a84@admission-skills
+DTSTAMP:20260901T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:University of Michigan EA application deadline
+DESCRIPTION:Submit\, then confirm receipt in the portal.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:University of Michigan EA application deadline (1 week away)
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:University of Michigan EA application deadline (1 day away)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR

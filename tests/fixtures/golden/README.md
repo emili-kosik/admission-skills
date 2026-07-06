@@ -1,0 +1,1 @@
+The golden .ics is produced by tests/test_ics_generate.py::render over the SAMPLE document. To regenerate after an intentional format change, run this file's docstring command or re-run the snippet in the repo history, review the diff, and commit.

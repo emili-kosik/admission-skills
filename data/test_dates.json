@@ -1,0 +1,111 @@
+{
+ "_meta": {
+  "cycle": "2026-27",
+  "built_at": "2026-07-06",
+  "last_verified": "2026-07-06",
+  "source": "satsuite.collegeboard.org, act.org, apstudents.collegeboard.org"
+ },
+ "sat": {
+  "source_url": "https://satsuite.collegeboard.org/sat/dates-deadlines",
+  "verified": true,
+  "dates": [
+   {
+    "test_date": "2026-08-22",
+    "registration_deadline": "2026-08-07",
+    "notes": "Late registration/changes deadline: Aug. 11, 2026"
+   },
+   {
+    "test_date": "2026-09-12",
+    "registration_deadline": "2026-08-28",
+    "notes": "Late registration/changes deadline: Sept. 1, 2026"
+   },
+   {
+    "test_date": "2026-10-03",
+    "registration_deadline": "2026-09-18",
+    "notes": "Late registration/changes deadline: Sept. 22, 2026"
+   },
+   {
+    "test_date": "2026-11-07",
+    "registration_deadline": "2026-10-23",
+    "notes": "Late registration/changes deadline: Oct. 27, 2026"
+   },
+   {
+    "test_date": "2026-12-05",
+    "registration_deadline": "2026-11-20",
+    "notes": "Late registration/changes deadline: Nov. 24, 2026"
+   },
+   {
+    "test_date": "2027-03-06",
+    "registration_deadline": "2027-02-19",
+    "notes": "Late registration/changes deadline: Feb. 23, 2027"
+   },
+   {
+    "test_date": "2027-05-01",
+    "registration_deadline": "2027-04-16",
+    "notes": "Late registration/changes deadline: April 20, 2027"
+   },
+   {
+    "test_date": "2027-06-05",
+    "registration_deadline": "2027-05-21",
+    "notes": "Late registration/changes deadline: May 25, 2027. Page notes 'Late registration is available worldwide' with additional fees."
+   }
+  ]
+ },
+ "act": {
+  "source_url": "https://www.act.org/content/act/en/products-and-services/the-act/registration/test-dates.html",
+  "verified": true,
+  "dates": [
+   {
+    "test_date": "2026-09-19",
+    "registration_deadline": "2026-08-14",
+    "notes": "Late deadline: Sept 1; photo upload & standby deadline: Sept 14; initial score release: Oct 6"
+   },
+   {
+    "test_date": "2026-10-17",
+    "registration_deadline": "2026-09-11",
+    "notes": "Late deadline: Sept 29; photo upload & standby deadline: Oct 12; initial score release: Oct 27"
+   },
+   {
+    "test_date": "2026-12-12",
+    "registration_deadline": "2026-11-06",
+    "notes": "Late deadline: Nov 29; photo upload & standby deadline: Dec 7; initial score release: Dec 22"
+   },
+   {
+    "test_date": "2027-02-27",
+    "registration_deadline": "2027-01-22",
+    "notes": "Late deadline: Feb 9; photo upload & standby deadline: Feb 22; initial score release: Mar 16"
+   },
+   {
+    "test_date": "2027-04-10",
+    "registration_deadline": "2027-03-05",
+    "notes": "Late deadline: Mar 23; photo upload & standby deadline: Apr 5; initial score release: Apr 20"
+   },
+   {
+    "test_date": "2027-06-12",
+    "registration_deadline": "2027-05-07",
+    "notes": "Late deadline: May 25; photo upload & standby deadline: Jun 7; initial score release: Jun 22"
+   },
+   {
+    "test_date": "2027-07-10",
+    "registration_deadline": "2027-06-04",
+    "notes": "Late deadline: Jun 22; photo upload & standby deadline: Jul 5; initial score release: Jul 20. Page: 'Deadlines occur at 11:59 pm Central Time.' No July test centers in New York per act.org (July testing in NY starts 2027)."
+   }
+  ]
+ },
+ "psat": {
+  "window": "October 1-30, 2026 (in-school weekday window); schools may also administer on Saturday, October 17, 2026 (for 2026 only). Students do not register through College Board -- schools choose the date.",
+  "source_url": "https://satsuite.collegeboard.org/psat-nmsqt/test-dates",
+  "verified": true,
+  "note": "Original URL https://satsuite.collegeboard.org/psat-nmsqt/dates returned 404; page moved to /psat-nmsqt/test-dates, verified there."
+ },
+ "ap": {
+  "window_2027": "2027 dates not yet published on the AP exam calendar as of 2026-07-06; the page currently lists only 2026 ('The 2026 AP Exams will be administered in schools over two weeks in May: May 4-8 and May 11-15.'). Expected pattern: first two full weeks of May (approx. May 3-7 and May 10-14, 2027 -- unconfirmed).",
+  "source_url": "https://apstudents.collegeboard.org/exam-calendar",
+  "verified": false
+ },
+ "lead_time_rules": {
+  "sat_registration_days_before": 15,
+  "act_registration_weeks_before": 5,
+  "notes": "Computed from the published 2026-27 tables: every SAT regular registration deadline falls 15 days before its test date (late registration/changes close ~11 days before, extra fee, available worldwide); every ACT regular registration deadline falls 36 days (~5 weeks) before its test date, with the late deadline ~2.5 weeks before and ACT deadlines closing at 11:59 pm Central Time. ACT also advises taking the test 'at least two months before your earliest college and scholarship application deadlines' (registration.html)."
+ }
+}

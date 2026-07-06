@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/emili-kosik/admission-skills/data/schemas/config.schema.json",
+  "title": "Workspace configuration (.admissions/config.json)",
+  "type": "object",
+  "required": ["schema_version", "cycle"],
+  "additionalProperties": true,
+  "properties": {
+    "schema_version": { "type": "integer", "const": 1 },
+    "cycle": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}$",
+      "description": "Application cycle, e.g. 2026-27 (apply fall 2026, enroll fall 2027)"
+    },
+    "systems": {
+      "type": "array",
+      "items": { "enum": ["common_app", "uc", "csu", "applytexas", "coalition_scoir", "institutional"] }
+    },
+    "international": { "type": "boolean" },
+    "keys": {
+      "type": "object",
+      "description": "Plaintext API-key fallback; prefer plugin userConfig instead",
+      "properties": {
+        "scorecard_api_key": { "type": "string" },
+        "careeronestop_user_id": { "type": "string" },
+        "careeronestop_token": { "type": "string" }
+      }
+    },
+    "state": {
+      "type": "object",
+      "description": "Engagement state maintained by hooks and checkin",
+      "properties": {
+        "last_session": { "type": ["string", "null"] },
+        "last_checkin": { "type": ["string", "null"] },
+        "checkin_streak_weeks": { "type": "integer", "minimum": 0 },
+        "next_actions": { "type": "array", "items": { "type": "string" }, "maxItems": 3 }
+      }
+    }
+  }
+}

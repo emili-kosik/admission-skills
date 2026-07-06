@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/emili-kosik/admission-skills/data/schemas/colleges.schema.json",
+  "title": "College list and application tracker",
+  "type": "object",
+  "required": ["schema_version", "colleges"],
+  "additionalProperties": true,
+  "properties": {
+    "schema_version": { "type": "integer", "const": 1 },
+    "last_list_review": { "type": ["string", "null"] },
+    "colleges": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "system", "status"],
+        "additionalProperties": true,
+        "properties": {
+          "name": { "type": "string", "minLength": 1 },
+          "unitid": { "type": ["integer", "null"] },
+          "system": {
+            "enum": ["common_app", "uc", "csu", "applytexas", "coalition_scoir", "institutional"]
+          },
+          "category": { "enum": [null, "reach", "match", "safety"] },
+          "plan": { "enum": [null, "ED", "ED2", "EA", "REA", "RD", "rolling", "uc_filing", "csu_filing"] },
+          "deadline": {
+            "type": ["string", "null"],
+            "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+          },
+          "deadline_verified": { "type": "boolean" },
+          "test_policy": { "enum": [null, "required", "optional", "flexible", "free"] },
+          "admission_type": {
+            "enum": [null, "rolling", "priority", "rounds", "wave", "unknown"],
+            "description": "How the college reviews: rolling/priority/wave review reward early submission; 'rounds' = fixed ED/EA/RD"
+          },
+          "priority_date": {
+            "type": ["string", "null"],
+            "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
+            "description": "Earliest advantageous date — scholarship/honors/housing priority, often weeks before the admission deadline"
+          },
+          "recommended_submit_by": {
+            "type": ["string", "null"],
+            "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
+            "description": "The date the family should actually aim for (strategic), not the backstop deadline"
+          },
+          "timing_note": {
+            "type": ["string", "null"],
+            "description": "Why the recommended date differs from the deadline (rolling review, wave fills, priority scholarship, etc.)"
+          },
+          "requirements": { "type": "object" },
+          "status": {
+            "enum": [
+              "researching", "applying", "essays_in_progress", "ready_to_submit",
+              "submitted", "decision_pending", "accepted", "denied", "waitlisted",
+              "deferred", "enrolled", "declined"
+            ]
+          },
+          "checklist": {
+            "type": "object",
+            "properties": {
+              "transcript_requested": { "type": "boolean" },
+              "recs_confirmed": { "type": "boolean" },
+              "test_scores_sent": { "type": "boolean" },
+              "portal_activated": { "type": "boolean" },
+              "fee_or_waiver": { "type": "boolean" }
+            }
+          },
+          "essays": { "type": "array", "items": { "type": "string" } },
+          "data": { "type": "object" },
+          "demonstrated_interest": { "type": "object" },
+          "decision": { "type": "object" },
+          "portal_url": { "type": ["string", "null"] },
+          "notes": { "type": ["string", "null"] }
+        }
+      }
+    }
+  }
+}

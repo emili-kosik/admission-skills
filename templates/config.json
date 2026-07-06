@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "cycle": "{{CYCLE}}",
+  "systems": ["common_app"],
+  "international": false,
+  "keys": {},
+  "state": {
+    "last_session": null,
+    "last_checkin": null,
+    "checkin_streak_weeks": 0,
+    "next_actions": []
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "admit",
+  "displayName": "Admit — College Admissions Copilot for Families",
+  "version": "1.0.0",
+  "description": "US high school planning, college admissions prep, and application management for families. College list building on live federal data (College Scorecard, IPEDS), policy-compliant essay coaching that never ghostwrites, deadline tracking with calendar export, personalized grade 9-12 roadmaps, testing plans, financial aid guidance, scholarship matching, and full support for Common App, UC, CSU, ApplyTexas, and international (F-1) applicants.",
+  "author": {
+    "name": "Emili Kosik",
+    "email": "emili-kosik@users.noreply.github.com"
+  },
+  "homepage": "https://github.com/emili-kosik/admission-skills",
+  "repository": "https://github.com/emili-kosik/admission-skills",
+  "license": "MIT",
+  "keywords": [
+    "college",
+    "admissions",
+    "common-app",
+    "fafsa",
+    "sat",
+    "act",
+    "essays",
+    "scholarships",
+    "financial-aid",
+    "international-students",
+    "high-school",
+    "education",
+    "family"
+  ],
+  "hooks": "./hooks/hooks.json",
+  "userConfig": {
+    "scorecard_api_key": {
+      "type": "string",
+      "sensitive": true,
+      "title": "College Scorecard API key",
+      "description": "Optional. Free instant key at https://api.data.gov/signup (1,000 requests/hour). Leave blank to use DEMO_KEY (30 requests/hour)."
+    },
+    "careeronestop_user_id": {
+      "type": "string",
+      "title": "CareerOneStop User ID",
+      "description": "Optional, enables scholarship search. Free registration at https://www.careeronestop.org/Developers/WebAPI/registration.aspx"
+    },
+    "careeronestop_token": {
+      "type": "string",
+      "sensitive": true,
+      "title": "CareerOneStop API token",
+      "description": "Optional. Issued together with the User ID above."
+    }
+  }
+}

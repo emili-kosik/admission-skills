@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/emili-kosik/admission-skills/data/schemas/essays-index.schema.json",
+  "title": "Essay inventory (essays/index.json)",
+  "type": "object",
+  "required": ["schema_version", "essays"],
+  "additionalProperties": true,
+  "properties": {
+    "schema_version": { "type": "integer", "const": 1 },
+    "essays": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["file", "target"],
+        "additionalProperties": true,
+        "properties": {
+          "file": { "type": "string", "description": "Path relative to essays/, e.g. drafts/common-app-v1.md" },
+          "target": {
+            "type": "string",
+            "description": "common_app | uc_piq | a college name for supplementals"
+          },
+          "prompt_id": { "type": ["string", "null"] },
+          "word_limit": { "type": ["integer", "null"] },
+          "status": {
+            "enum": ["brainstorming", "drafting", "in_review", "revising", "final"]
+          },
+          "last_reviewed": { "type": ["string", "null"] }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "operator": "parent",
+  "student": {
+    "preferred_name": "",
+    "grad_year": null,
+    "residency": "domestic",
+    "country": "US",
+    "state": null,
+    "first_gen": false,
+    "school_type": "public"
+  },
+  "academics": {
+    "gpa_unweighted": null,
+    "gpa_weighted": null,
+    "class_rank": null,
+    "current_courses": [],
+    "rigor_arc": null,
+    "ap_taken": []
+  },
+  "testing": {
+    "psat": null,
+    "sat": [],
+    "act": [],
+    "english_proficiency": null
+  },
+  "interests": {
+    "majors": [],
+    "size": [],
+    "regions": [],
+    "setting": [],
+    "must_haves": [],
+    "special_tracks": []
+  },
+  "finances": {
+    "need_based_aid": null,
+    "budget_per_year_usd": null,
+    "income_bracket": null
+  },
+  "narrative": {
+    "spike": null,
+    "hooks": []
+  }
+}

@@ -1,0 +1,72 @@
+{
+ "_meta": {
+  "cycle": "2026-27",
+  "built_at": "2026-07-06",
+  "last_verified": "2026-07-06",
+  "source": "Institution admissions pages, quoted verbatim with per-entry citations",
+  "default_tier": "prohibitive",
+  "notes": "When a college has no entry here, apply the strictest-common-denominator rules (tier: prohibitive). The Common App fraud-policy baseline applies to all its members."
+ },
+ "policies": [
+  {
+   "institution": "Common App",
+   "tier": "fraud-baseline",
+   "quote": "Submitting plagiarized essays or other written or oral material, or intentionally misrepresenting as one’s own original work: (1) another person’s thoughts, language, ideas, expressions, or experiences or (2) the substantive content or output of an artificial intelligence platform, technology, or algorithm;",
+   "source_url": "https://www.commonapp.org/fraud-policy",
+   "citation_type": "live",
+   "verified": true,
+   "last_verified": "2026-07-06",
+   "notes": "Verbatim from item iii of the 'Fraud' definition list ('Fraud may occur in the following circumstances, without limitation'). Page is a Gatsby SPA; text verified via the page's own data payload at https://www.commonapp.org/page-data/fraud-policy/page-data.json. IMPORTANT: the grammar/spelling review exception does NOT appear anywhere in the Common App fraud policy itself — searches for 'grammar' and 'spelling' in the full policy text returned nothing. That exception language ('Using an AI platform to review one’s grammar or spelling ... does not constitute application fraud') is Yale's gloss on the Common App definition (see Yale entry); Brown states a similar proofreading carve-out. Do not attribute the exception to Common App."
+  },
+  {
+   "institution": "Brown University",
+   "tier": "prohibitive",
+   "quote": "Brown affirms this definition and reiterates our own independent policy that the use of artificial intelligence by an applicant is not permitted under any circumstances in conjunction with application content. While an applicant may use artificial intelligence to assist with spelling and grammar review, in the same way as any other platform that supports basic proofreading, the content of all essays, short-answer questions and any other material submitted by an applicant must be the work of that individual.",
+   "source_url": "https://admission.brown.edu/apply/how-apply/integrity-application-process",
+   "citation_type": "live",
+   "verified": true,
+   "last_verified": "2026-07-06",
+   "notes": "Under heading 'Artificial Intelligence in the Application Process'. Immediately preceded by: 'As per the Common App’s policy linked above, their definition of application fraud includes:' followed by the Common App fraud-definition quote verbatim. Strictest of the group ('not permitted under any circumstances'), with only a spelling/grammar proofreading carve-out. Note the page is at admission.brown.edu (not the /apply/how-apply parent page, which carries no AI statement)."
+  },
+  {
+   "institution": "Caltech",
+   "tier": "explicit-guidelines",
+   "quote": "All Fall 2026 applicants must review Caltech's guidelines on the ethical use of AI before submitting their supplemental essays. Failure to comply with the Ethical Use of AI guidelines may result in the rescission of your admission to Caltech. [...] What are some examples of unethical uses of AI for Caltech admissions essays? Copying and pasting directly from an AI generator / Relying on AI generated content to outline or draft an essay / Replacing your unique voice and tone with AI generated content / Translating an essay written in another language. What are some examples of ethical uses of AI for Caltech admissions essays? Using AI tools, like Grammarly or Microsoft Editor, to review grammar and spelling of your completed essays / Generating questions or exercises to help kick start the brainstorming process / Using AI to research the college application process. If you are still wondering whether your use of AI in crafting your application is ethical, ask yourself whether it would be ethical to have a trusted adult perform the same task you are asking of ChatGPT.",
+   "source_url": "https://www.admissions.caltech.edu/apply/first-year-applicants/supplemental-application-essays/ethical-use-of-ai-guidelines-for-fall-applicants",
+   "citation_type": "live",
+   "verified": true,
+   "last_verified": "2026-07-06",
+   "notes": "Page title: 'Undergraduate and Graduate Admissions AI Policy: Guidelines for Fall Applicants'; body text explicitly references the Fall 2026 application cycle ('The Undergraduate Faculty Admissions and Graduate Studies committees convened and have approved of the following ethical guidelines for the use of AI in the Fall 2026 application cycle.'). Bullet lists joined with ' / ' here; each bullet's text is verbatim. Also verbatim on page: 'Would a teacher be able to review your essay for grammatical and spelling errors? Of course! Would that same teacher write a draft of an essay for you to tweak and then submit? Definitely not.' Note translation of an essay written in another language is listed as UNETHICAL."
+  },
+  {
+   "institution": "Georgia Tech",
+   "tier": "permissive",
+   "quote": "AI tools can be powerful and valuable in the application process when used thoughtfully. We believe there is a place for them in helping you generate ideas, but your ultimate submission should be your own. As with all other sources, you should not copy and paste content you did not create directly into your application. Instead, if you choose to utilize AI-based assistance while working on your writing submissions for Georgia Tech, we encourage you to take the same approach you would when collaborating with people. Use it to brainstorm, edit, and refine your ideas. AI can also be a useful tool as you consider how to construct your resume in the Activities portion of the Common Application. We think AI could be a helpful collaborator, particularly when you do not have access to other assistance to help you complete your application.",
+   "source_url": "https://admission.gatech.edu/first-year/application-review",
+   "citation_type": "live",
+   "verified": true,
+   "last_verified": "2026-07-06",
+   "notes": "Under heading 'Statement on AI' in the 'What else should I know?' section of the first-year Application Review page. Most permissive of the group — frames AI as an equity-positive 'helpful collaborator' for students lacking access to other help, while still requiring the ultimate submission be the applicant's own."
+  },
+  {
+   "institution": "Yale University",
+   "tier": "prohibitive",
+   "quote": "As detailed in the above statements, it is Yale’s policy that submitting “the substantive content or output of an artificial intelligence platform, technology, or algorithm” constitutes application fraud. Submitting personal statements or other written application responses composed by text-generating software may result in admission revocation or expulsion. Using an AI platform to review one’s grammar or spelling, or to seek general advice or topic suggestions at the start of the writing process does not constitute application fraud. Some applicants may find AI tools useful in these ways; others may not.",
+   "source_url": "https://admissions.yale.edu/ai-policy",
+   "citation_type": "live",
+   "verified": true,
+   "last_verified": "2026-07-06",
+   "notes": "LIVE as of 2026-07-06 at /ai-policy (page title 'AI Policy | Undergraduate Admissions', section heading 'Policy of the Yale Admissions Office'). The alternate URL https://admissions.yale.edu/ai-policy-statement returns HTTP 404 — use /ai-policy, not /ai-policy-statement. Page opens with the verbatim framing line: 'AI tools are inevitably ignorant of the foundation of a successful application: the unique person applying.' Yale adopts the Common App fraud definition and adds explicit carve-outs for grammar/spelling review and early-stage general advice/topic suggestions; this is the source of the grammar/spelling exception language often misattributed to Common App itself."
+  },
+  {
+   "institution": "University of California",
+   "tier": "test-free-checks",
+   "quote": "The personal insight responses should reflect the student’s own ideas and experiences, be independently written by the student and reflect the student’s personal writing style. Students may receive advice on content and editing, including the use of generative artificial intelligence software to assist with readability, but content and final written text must be their own. Students must not plagiarize or copy from sources in print or online nor use any other person’s words or published works. UC conducts regular screenings to verify the integrity of the responses, may request authentication of the content or writing as the student’s, and will take action when it is determined that the integrity of the response is compromised.",
+   "source_url": "https://apply.universityofcalifornia.edu/docs/StatementOfIntegrity.pdf",
+   "citation_type": "live",
+   "verified": true,
+   "last_verified": "2026-07-06",
+   "notes": "Verbatim from the 'Personal Insight Question Responses' section of UC's official 'Statement of Application Integrity' PDF (document footer: 'Last updated August 2023'; still the posted version as of verification). UC does not use Common App. Permits generative AI 'to assist with readability' but requires content and final written text to be the student's own; confirms regular integrity screenings of PIQ responses and possible requests to authenticate authorship. Secondary reporting (not primary-verified here) indicates flagged applicants are emailed in early January with a two-week response window; UC has been test-free since 2021, which increases PIQ weight."
+  }
+ ]
+}
