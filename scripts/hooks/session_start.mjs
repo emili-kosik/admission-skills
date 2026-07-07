@@ -88,6 +88,17 @@ try {
     }
   }
 
+  // 4b. myhstimeline High School Timeline focus (optional, if linked).
+  const hs = readJsonSafe(join(ws, ".admissions", "hs_timeline.json"));
+  if (hs && hs.current && hs.current.title) {
+    const dueDays = daysUntil(hs.current.due);
+    const dueStr = dueDays !== null && dueDays <= HORIZON_DAYS ? ` (${pluralDays(dueDays)})` : "";
+    lines.push(`- HS timeline focus: ${hs.current.title}${dueStr}`);
+    if (hs.progress && typeof hs.progress.percent === "number") {
+      lines.push(`- HS timeline ${hs.progress.percent}% complete (/admit:sync to refresh)`);
+    }
+  }
+
   // 5. Check-in nudge + next actions from last check-in. A malformed
   // last_checkin date must nudge, not silently suppress (daysUntil -> null).
   const state = config.state || {};

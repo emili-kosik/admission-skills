@@ -229,6 +229,50 @@ def test_snapshot_namespaces_by_subdir(repo_root: Path, workspace: Path):
     assert any(n.startswith("feedback__x.") for n in history)
 
 
+# --- hs_timeline (myhstimeline integration) --------------------------------
+
+HS_FIXTURE = Path(__file__).parent / "fixtures" / "workspace" / "hs_timeline.json"
+
+
+def _write_hs(workspace: Path, mutate=None) -> Path:
+    doc = json.loads(HS_FIXTURE.read_text(encoding="utf-8"))
+    if mutate:
+        mutate(doc)
+    dst = workspace / ".admissions" / "hs_timeline.json"
+    dst.write_text(json.dumps(doc), encoding="utf-8")
+    return dst
+
+
+def test_session_start_shows_hs_focus(repo_root: Path, workspace: Path):
+    _write_hs(workspace)
+    r = run_hook(repo_root, "session_start.mjs", {"cwd": str(workspace)})
+    assert r.returncode == 0
+    ctx = json.loads(r.stdout)["hookSpecificOutput"]["additionalContext"]
+    assert "HS timeline focus: Register for the fall SAT" in ctx
+    assert "59% complete" in ctx
+
+
+def test_session_start_no_hs_lines_without_file(repo_root: Path, workspace: Path):
+    r = run_hook(repo_root, "session_start.mjs", {"cwd": str(workspace)})
+    assert r.returncode == 0
+    ctx = r.stdout.strip() and json.loads(r.stdout)["hookSpecificOutput"]["additionalContext"]
+    assert "HS timeline" not in (ctx or "")
+
+
+def test_validator_silent_on_valid_hs_timeline(repo_root: Path, workspace: Path):
+    path = _write_hs(workspace)
+    r = run_hook(repo_root, "validate_workspace.mjs", {"tool_input": {"file_path": str(path)}})
+    assert r.returncode == 0
+    assert r.stdout.strip() == ""
+
+
+def test_validator_flags_bad_hs_milestone_type(repo_root: Path, workspace: Path):
+    path = _write_hs(workspace, lambda d: d["phases"][1]["milestones"][0].__setitem__("type", "bogus"))
+    r = run_hook(repo_root, "validate_workspace.mjs", {"tool_input": {"file_path": str(path)}})
+    assert r.returncode == 0
+    assert "bogus" in _added_context(r)
+
+
 def test_session_start_nudges_on_malformed_checkin_date(repo_root: Path, workspace: Path):
     cfg_path = workspace / ".admissions" / "config.json"
     cfg = json.loads(cfg_path.read_text(encoding="utf-8"))

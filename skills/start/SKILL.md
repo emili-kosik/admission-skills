@@ -45,6 +45,42 @@ under-18 self-use.
    State the one-liner yourself: **everything stays local; never push this folder to
    a public remote.**
 
+## Step 1b — Connect myhstimeline (optional · Round Rock HS pilot)
+
+**myhstimeline** is a visual high-school-progress timeline. It is a pilot and
+**currently has data only for students at Round Rock High School (Round Rock ISD,
+TX)**. Offer it in one line and let the family self-select — do not push it:
+
+> "Do you use myhstimeline? It's a visual HS-progress timeline — right now it only
+> works for **Round Rock High School (RRISD)**. If that's your student's school you
+> can connect it so I don't re-ask what it already knows; otherwise we'll skip it."
+
+- **Skip / not Round Rock HS / no account** (the common case): say "No problem — you
+  can connect it later with `/admit:sync`" and go straight to the interview. Nothing
+  is blocked.
+- **Connect:** show this one-time command verbatim, then wait for the tools:
+
+  ```bash
+  claude mcp add --transport stdio --scope user myhstimeline \
+    --env MYHS_API_URL=https://api.myhstimeline.com \
+    --env MYHS_TOKEN=<token from myhstimeline app -> Settings -> Connect external tools> \
+    -- npx -y @myhstimeline/mcp
+  ```
+
+  Once the `myhs_*` tools are present (pull-first-then-prefill):
+  1. Call `myhs_get_profile` and `myhs_get_overview`.
+  2. Write the whole `.admissions/hs_timeline.json` from the overview (add
+     `"source": "myhstimeline"` and today's `synced_at`).
+  3. **Prefill `profile.json` — missing fields only, never overwrite without
+     asking** — using the field mapping in the `sync` skill's myhstimeline recipes
+     (e.g. `grad_year = enrollment_year + 4`, residency, state, English
+     proficiency).
+  4. Run the interview below but **skip questions already answered**.
+
+  If the command was run but the tools don't appear, say so in one line and
+  continue with the normal interview. Keeping it current later is `/admit:sync`;
+  the High School Timeline panel shows in `/admit:roadmap`.
+
 ## Step 2 — Profile interview (10 minutes, conversational)
 
 Fill `profile.json` by asking, in this order (skip what the user volunteers):
@@ -100,4 +136,6 @@ Offer the upgrades once:
 ## Persistence contract
 
 Writes: `profile.json`, `.admissions/config.json` (via `init_workspace`), and the
-scaffold files. Never writes into `essays/drafts/`.
+scaffold files. May write `.admissions/hs_timeline.json` and prefill `profile.json`
+from myhstimeline (missing fields only) when the student links their account.
+Never writes into `essays/drafts/`.

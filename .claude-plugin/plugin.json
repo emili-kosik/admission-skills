@@ -1,7 +1,7 @@
 {
   "name": "admit",
   "displayName": "Admit — College Admissions Copilot for Families",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "US high school planning, college admissions prep, and application management for families. College list building on live federal data (College Scorecard, IPEDS), policy-compliant essay coaching that never ghostwrites, deadline tracking with calendar export, personalized grade 9-12 roadmaps, testing plans, financial aid guidance, scholarship matching, and full support for Common App, UC, CSU, ApplyTexas, and international (F-1) applicants.",
   "author": {
     "name": "Emili Kosik",

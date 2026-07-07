@@ -28,6 +28,8 @@ const TEST_POLICIES = new Set([null, "required", "optional", "flexible", "free"]
 const ADMISSION_TYPES = new Set([null, "rolling", "priority", "rounds", "wave", "unknown"]);
 const ESSAY_STATUSES = new Set([undefined, "brainstorming", "drafting", "in_review", "revising", "final"]);
 const OPERATORS = new Set(["parent", "student_18plus"]);
+const HS_MILESTONE_TYPES = new Set(["info", "decision", "time_sensitive"]);
+const HS_STATUSES = new Set(["done", "current", "upcoming"]);
 const ISO_DATE = /^\d{4}-\d{2}-\d{2}$/;
 
 function validateColleges(doc, note) {
@@ -80,6 +82,26 @@ function validateConfig(doc, note) {
   }
 }
 
+function validateHsTimeline(doc, note) {
+  if (doc.source !== "myhstimeline") {
+    note('.admissions/hs_timeline.json: source should be "myhstimeline" (it mirrors the myhstimeline overview)');
+  }
+  if (!Array.isArray(doc.phases)) {
+    return note(".admissions/hs_timeline.json: 'phases' must be an array");
+  }
+  doc.phases.forEach((p, i) => {
+    const tag = `.admissions/hs_timeline.json phase ${i} (${p?.label || "unlabeled"})`;
+    if (p.status != null && !HS_STATUSES.has(p.status)) note(`${tag}: status '${p.status}' not one of ${[...HS_STATUSES].join("|")}`);
+    if (!Array.isArray(p.milestones)) return note(`${tag}: 'milestones' must be an array`);
+    p.milestones.forEach((m, j) => {
+      const mt = `${tag} milestone ${j}`;
+      if (m.type != null && !HS_MILESTONE_TYPES.has(m.type)) note(`${mt}: type '${m.type}' not one of ${[...HS_MILESTONE_TYPES].join("|")}`);
+      if (m.status != null && !HS_STATUSES.has(m.status)) note(`${mt}: status '${m.status}' not one of ${[...HS_STATUSES].join("|")}`);
+      if (m.due != null && !ISO_DATE.test(m.due)) note(`${mt}: due '${m.due}' must be YYYY-MM-DD`);
+    });
+  });
+}
+
 function emit(issues) {
   if (issues.length === 0) return; // silent when all good
   const msg = "admit workspace check (fix quietly, do not show the user code): " + issues.join("; ") + ".";
@@ -95,7 +117,7 @@ try {
 
   // Fold names so a casing variant (Profile.json on NTFS) is still checked.
   const name = foldPath(basename(filePath));
-  const interesting = new Set(["profile.json", "colleges.json", "index.json", "config.json"]);
+  const interesting = new Set(["profile.json", "colleges.json", "index.json", "config.json", "hs_timeline.json"]);
   if (!interesting.has(name)) process.exit(0);
 
   const ws = findWorkspace(dirname(filePath));
@@ -120,6 +142,7 @@ try {
   else if (relCmp === "profile.json") validateProfile(doc, note);
   else if (relCmp === "essays/index.json") validateEssaysIndex(doc, note);
   else if (relCmp === ".admissions/config.json") validateConfig(doc, note);
+  else if (relCmp === ".admissions/hs_timeline.json") validateHsTimeline(doc, note);
 
   emit(issues);
   process.exit(0);

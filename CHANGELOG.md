@@ -4,6 +4,27 @@ All notable changes to this project are documented here. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/); versioning follows
 [SemVer](https://semver.org/). Dataset refreshes ship as patch releases.
 
+## [1.1.0] - 2026-07-06
+
+### Added
+
+- **myhstimeline integration (Round Rock HS pilot).** Optional, session-time MCP
+  (`@myhstimeline/mcp`) that brings a student's visual high-school-progress
+  timeline into Admit as a distinct **High School Timeline** panel, pre-fills
+  onboarding, and — after explicit confirmation — pushes completed decisions back.
+  - `start`: optional early connect step with an explicit **Round Rock High School
+    (RRISD)** pilot gate and pull-first-then-prefill of `profile.json`.
+  - `sync`: bidirectional Tier-1 section (probe → pull → confirmation-gated push
+    with the decision label-vs-value rule) + `references/myhstimeline-recipes.md`.
+  - `roadmap`: renders a separate "High School Timeline" section in `timeline.md`,
+    never merged into the admissions milestones.
+  - `checkin`: weaves the current/upcoming HS milestones into the weekly picks.
+  - `session_start` hook: surfaces the current HS focus + percent complete.
+  - New workspace file `.admissions/hs_timeline.json` with
+    `data/schemas/hs-timeline.schema.json` and non-blocking validation in the
+    workspace hook. Token lives in the MCP server env, never in `userConfig`.
+  - `docs/INTEGRATIONS.md` subsection and `docs/SPEC-myhstimeline-integration.md`.
+
 ## [1.0.0] - 2026-07-06
 
 ### Added

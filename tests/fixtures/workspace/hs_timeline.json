@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "source": "myhstimeline",
+  "synced_at": "2026-07-06",
+  "student": { "current_grade": "Grade 11", "enrollment_year": 2023 },
+  "progress": { "completed": 34, "total": 58, "percent": 59 },
+  "current": { "grade_year": 11, "block_id": 210, "title": "Register for the fall SAT", "due": "2026-09-15" },
+  "phases": [
+    {
+      "grade_year": 0,
+      "label": "Before Grade 9",
+      "status": "done",
+      "milestones": [
+        { "id": 5, "title": "Choose enrollment type", "type": "decision", "status": "done", "chose": "Local resident", "due": null }
+      ]
+    },
+    {
+      "grade_year": 11,
+      "label": "Grade 11",
+      "status": "current",
+      "milestones": [
+        { "id": 210, "title": "Register for the fall SAT", "type": "time_sensitive", "status": "current", "due": "2026-09-15" },
+        { "id": 211, "title": "Shortlist colleges", "type": "info", "status": "upcoming", "due": null }
+      ]
+    }
+  ]
+}

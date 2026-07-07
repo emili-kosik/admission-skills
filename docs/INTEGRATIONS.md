@@ -37,6 +37,35 @@ detects and uses them; if not, it quietly sticks to Tier 0.
 Each of these sends the relevant slice of data to that provider — the skill
 states what it's about to sync before doing it.
 
+## Tier 1 — myhstimeline (High School Timeline) · Round Rock HS pilot
+
+[myhstimeline](https://myhstimeline.com/) is a student's structured visual
+high-school milestone timeline. Connected, it flows into Admit as a distinct
+**High School Timeline** panel (in `/admit:roadmap`), pre-fills onboarding, and —
+after explicit confirmation — lets Admit push completed decisions back.
+
+> **Pilot scope:** myhstimeline currently has data only for students at **Round
+> Rock High School (Round Rock ISD, TX)**. If that isn't your school, skip it —
+> Admit works fully without it.
+
+It's a **session-time MCP**, connected once by the student (the token lives in the
+MCP server's own env, **never** in Admit's `plugin.json` `userConfig` and never
+written to the workspace):
+
+```bash
+claude mcp add --transport stdio --scope user myhstimeline \
+  --env MYHS_API_URL=https://api.myhstimeline.com \
+  --env MYHS_TOKEN=<token from myhstimeline app -> Settings -> Connect external tools> \
+  -- npx -y @myhstimeline/mcp
+```
+
+Read/write model: Admit **pulls** the overview into `.admissions/hs_timeline.json`
+and renders it as its own panel; **writes back** (completing a decision, marking a
+milestone done) happen only after you confirm an explicit proposal table — never
+automatically. A read-only token still allows the panel; write-back needs a
+read&write token. Details and the field mapping:
+`skills/sync/references/myhstimeline-recipes.md`.
+
 ## Tier 2 — power users
 
 - **Google Docs essay drafts.** The default recommendation is local Markdown

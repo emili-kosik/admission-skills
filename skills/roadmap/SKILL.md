@@ -108,6 +108,30 @@ Rendering rules:
 
 Keep it scannable: one line per item, no paragraphs inside the month groups.
 
+## Step 4b — Append the High School Timeline panel (myhstimeline, if linked)
+
+If `.admissions/hs_timeline.json` exists, append a **separate** section to the end
+of `timeline.md` — never merge it into the admissions milestones above:
+
+```text
+## High School Timeline  (from myhstimeline — updated {synced_at})
+
+### Grade 11  ← you are here
+- [x] Choose enrollment type → Local resident
+- [»] Register for the fall SAT            (due 2026-09-15)   ← current
+- [ ] Shortlist colleges
+
+Overall: 34/58 milestones (59%)
+```
+
+Render rules: iterate `phases` in order; per milestone `done → [x]`,
+`current → [»]`, `upcoming → [ ]`; append `→ {chose}` for decision milestones and
+`(due {due})` where present; mark the phase whose `status == "current"` with
+`← you are here`; end with `Overall: {completed}/{total} ({percent}%)`. It mirrors
+the student's myhstimeline data — do not pull any of it into the admissions
+section, and do not edit it back here (that's `/admit:sync`). If the file is
+absent, skip this step silently.
+
 ## Step 5 — Grade-aware framing
 
 The opening paragraph of `timeline.md` (and your spoken recap) must match grade:
@@ -153,5 +177,6 @@ Writes: `.admissions/milestones.json` (via `timeline_build`; may also flip `done
 flags read-modify-write), `timeline.md` at the workspace root (full overwrite),
 `output/admit-calendar.ics` (via `ics_generate`). May update `profile.json`
 (read-modify-write) only to set a missing `student.grad_year`. Reads:
-`profile.json`, `colleges.json`, `.admissions/config.json`. Never writes
-`essays/drafts/**`.
+`profile.json`, `colleges.json`, `.admissions/config.json`, and
+`.admissions/hs_timeline.json` (if present — rendered as a separate "High School
+Timeline" section in `timeline.md`, never merged). Never writes `essays/drafts/**`.

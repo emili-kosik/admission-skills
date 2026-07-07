@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/emili-kosik/admission-skills/data/schemas/hs-timeline.schema.json",
+  "title": "High School Timeline (mirror of myhstimeline overview)",
+  "description": "Written by the sync skill from the myhstimeline MCP tool myhs_get_overview. additionalProperties is permissive so the overview endpoint can add fields without breaking validation; the runtime hook only checks the enums the roadmap render depends on.",
+  "type": "object",
+  "required": ["schema_version", "source", "phases"],
+  "additionalProperties": true,
+  "properties": {
+    "schema_version": { "const": 1 },
+    "source": { "const": "myhstimeline" },
+    "synced_at": { "type": "string" },
+    "student": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "current_grade": { "type": ["string", "null"] },
+        "enrollment_year": { "type": ["integer", "null"] }
+      }
+    },
+    "progress": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "completed": { "type": "integer" },
+        "total": { "type": "integer" },
+        "percent": { "type": "integer" }
+      }
+    },
+    "current": {
+      "type": ["object", "null"],
+      "additionalProperties": true,
+      "properties": {
+        "grade_year": { "type": ["integer", "null"] },
+        "block_id": { "type": "integer" },
+        "title": { "type": "string" },
+        "due": { "type": ["string", "null"] }
+      }
+    },
+    "phases": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["label", "status", "milestones"],
+        "additionalProperties": true,
+        "properties": {
+          "grade_year": { "type": ["integer", "null"] },
+          "label": { "type": "string" },
+          "status": { "enum": ["done", "current", "upcoming"] },
+          "milestones": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["id", "title", "type", "status"],
+              "additionalProperties": true,
+              "properties": {
+                "id": { "type": "integer" },
+                "title": { "type": "string" },
+                "type": { "enum": ["info", "decision", "time_sensitive"] },
+                "status": { "enum": ["done", "current", "upcoming"] },
+                "chose": { "type": ["string", "null"] },
+                "due": { "type": ["string", "null"] }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

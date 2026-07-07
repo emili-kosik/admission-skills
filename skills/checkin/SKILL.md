@@ -33,6 +33,8 @@ Read all four files up front:
 - `colleges.json` — statuses, deadlines, checklists
 - `essays/index.json` — per-essay `status` and `last_reviewed`
 - `.admissions/milestones.json` — computed timeline (`milestones[].date`, `.done`)
+- `.admissions/hs_timeline.json` — the myhstimeline High School Timeline, **if it
+  exists** (`current` focus + nearest `upcoming` milestones)
 
 If `state.last_checkin` is today, this is a revision, not a new check-in: skip
 the streak math, re-open step 4, and rewrite the three actions.
@@ -67,8 +69,10 @@ confetti, no streak-guilt.
 ## 4. Pick exactly three next actions — with the user, not for them
 
 Propose candidates from the nearest undone milestones, soonest deadlines,
-stalled items, and unchecked checklist boxes — then let the user pick and
-reshape. Rules for each action:
+stalled items, and unchecked checklist boxes — and, if `hs_timeline.json` is
+present, the `current` and nearest `upcoming` High School Timeline milestones
+alongside the admissions ones — then let the user pick and reshape. Rules for
+each action:
 
 - **Small**: finishable in one sitting ("email Ms. Rivera about the rec", not
   "do the Common App").
@@ -103,5 +107,5 @@ briefing, so nothing needs to be remembered.
 
 Writes: `.admissions/config.json` (read-modify-write, whole file; touches only
 `state.last_checkin`, `state.checkin_streak_weeks`, `state.next_actions`).
-Reads: `colleges.json`, `essays/index.json`, `.admissions/milestones.json`.
-Never writes `essays/drafts/**`.
+Reads: `colleges.json`, `essays/index.json`, `.admissions/milestones.json`,
+`.admissions/hs_timeline.json` (if present). Never writes `essays/drafts/**`.

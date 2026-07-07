@@ -9,9 +9,11 @@ description: >
   essay draft for critique. Use when the user says "sync", "export the
   calendar", "add deadlines to my calendar", "import to Google Calendar",
   "check my email", "scan my inbox", "any admissions emails?", "connect
-  Notion", "mirror to Notion", "read my Google Doc", or asks about connecting
-  Gmail, Google Calendar, or Notion.
-argument-hint: "[calendar|gmail|gcal|notion|gdoc] [args]"
+  Notion", "mirror to Notion", "read my Google Doc", "connect myhstimeline",
+  "sync my high school timeline", "pull my timeline", "update my timeline",
+  "я сделал выбор в таймлайне", "обнови мой таймлайн", or asks about connecting
+  Gmail, Google Calendar, Notion, or myhstimeline.
+argument-hint: "[calendar|gmail|gcal|notion|gdoc|myhs] [args]"
 ---
 
 # Sync — calendars, inboxes, and mirrors
@@ -106,6 +108,46 @@ overwritten on the next sync and never flow into the workspace.
    and note (don't delete) rows for colleges removed from the list.
 3. Confirm the target page/workspace with the user before the first write.
 
+## Tier 1 — myhstimeline (High School Timeline · Round Rock HS pilot) (`myhs`)
+
+Bidirectional and capability-probed. **Pilot scope: myhstimeline currently has
+data only for students at Round Rock High School (Round Rock ISD, TX)** — if that
+isn't the student's school, there's nothing to connect; skip it. Read
+`references/myhstimeline-recipes.md` for the tool list, the field-mapping table,
+the proposal templates, and the label-vs-value rule.
+
+**Probe.** If `myhs_get_overview` is not visible in this session, say in one line:
+*"myhstimeline isn't connected — see docs/INTEGRATIONS.md to connect it (Round Rock
+HS pilot)."* and stop. Never nag.
+
+**Pull (read).** Call `myhs_get_overview`; read-modify-write the whole
+`.admissions/hs_timeline.json` with the returned overview plus
+`"source": "myhstimeline"` and today's `synced_at` (use the real date, don't invent
+one). On first link, also call `myhs_get_profile` and offer the profile prefill
+(mapping in the recipes reference). Then tell the user: *"Pulled — run
+/admit:roadmap to see your High School Timeline panel."*
+
+**Push (write) — confirmation-gated.** When the family makes a decision that maps to
+a myhstimeline block (chose an enrollment type; finished a deadline milestone;
+changed onboarding), build a proposal table and apply only the confirmed rows:
+
+```text
+Proposed updates to your High School Timeline (myhstimeline):
+| Block (grade, type)                     | Action    | Value            |
+| Choose enrollment type (G0, decision)   | complete  | "Local resident" |
+| Register for the fall SAT (G11, dline)  | mark done | —                |
+Apply these 2 updates? (all / pick rows / cancel)
+```
+
+On confirmation, call `myhs_complete_block` / `myhs_rollback_block` /
+`myhs_update_onboarding` for the chosen rows, then re-pull to refresh
+`.admissions/hs_timeline.json`. For a **decision** block, resolve the option's
+**`value`** (not its label) from `myhs_get_timeline`'s `options[]` before calling
+`myhs_complete_block` (label-vs-value rule in the recipes). Never write without
+confirmation. A `403` means the student issued a read-only token — tell them to
+generate a read&write token; do not retry silently. Show any validation error
+verbatim.
+
 ## Tier 2 — Google Docs essay drafts (`gdoc`): read-only, zero auth
 
 If the student drafts essays in Google Docs, read a **link-shared** doc
@@ -128,6 +170,8 @@ https://docs.google.com/document/d/{ID}/export?format=txt
 
 - Status board, applying confirmed email-scan updates, decision events → `tracker`
 - Timeline missing or stale (`no_timeline`) → `roadmap`
+- Viewing the High School Timeline panel after a myhstimeline pull → `roadmap`
+- Weaving HS milestones into the weekly picks → `checkin`
 - Critique of a fetched Google Docs draft → `essay-coach` (owns the ruleset)
 - Aid/verification emails surfaced by a scan → `financial-aid`
 - Decision notices surfaced by a scan → `decision-day` (after portal check)
@@ -137,8 +181,11 @@ https://docs.google.com/document/d/{ID}/export?format=txt
 
 Writes: `output/admit-calendar.ics` (via `ics_generate` only); `colleges.json`
 (read-modify-write, whole file, **only** for user-confirmed proposals from a
-Gmail scan). Reads: `colleges.json`, `profile.json`, `essays/index.json`,
-`.admissions/config.json`, `.admissions/milestones.json`, bundled
-`data/*.json`. Never writes `essays/drafts/**` or `essays/feedback/**`
-(feedback belongs to `essay-coach`). External writes (Google Calendar events,
-Notion pages) happen only after the user confirms exactly what will be created.
+Gmail scan); `.admissions/hs_timeline.json` (whole-file, from a myhstimeline
+pull). Reads: `colleges.json`, `profile.json`, `essays/index.json`,
+`.admissions/config.json`, `.admissions/milestones.json`,
+`.admissions/hs_timeline.json`, bundled `data/*.json`. Never writes
+`essays/drafts/**` or `essays/feedback/**` (feedback belongs to `essay-coach`).
+External writes (Google Calendar events, Notion pages, and myhstimeline blocks
+via `myhs_complete_block` / `myhs_rollback_block` / `myhs_update_onboarding`)
+happen only after the user confirms exactly what will be created or changed.
